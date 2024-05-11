@@ -9,3 +9,4 @@ C:\Users\alber\OneDrive - Institut Teknologi Bandung\Documents\Code\CSharp\Tubes
 C:\Users\alber\OneDrive - Institut Teknologi Bandung\Documents\Code\CSharp\Tubes3_Barbarians\src\Barbarians\obj\Debug\Barbarians.exe
 C:\Users\alber\OneDrive - Institut Teknologi Bandung\Documents\Code\CSharp\Tubes3_Barbarians\src\Barbarians\obj\Debug\Barbarians.xml
 C:\Users\alber\OneDrive - Institut Teknologi Bandung\Documents\Code\CSharp\Tubes3_Barbarians\src\Barbarians\obj\Debug\Barbarians.pdb
+C:\Users\alber\OneDrive - Institut Teknologi Bandung\Documents\Code\CSharp\Tubes3_Barbarians\src\Barbarians\obj\Debug\Barbarians.Form1.resources
