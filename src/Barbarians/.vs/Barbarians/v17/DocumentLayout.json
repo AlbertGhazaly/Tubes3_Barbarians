@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\Barbarians\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8961D50C-9CB6-46B1-AB40-BD3F565C70D0}|Barbarians.vbproj|c:\\users\\alber\\onedrive - institut teknologi bandung\\documents\\code\\csharp\\tubes3_barbarians\\src\\barbarians\\kmb.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{8961D50C-9CB6-46B1-AB40-BD3F565C70D0}|Barbarians.vbproj|solutionrelative:kmb.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{8961D50C-9CB6-46B1-AB40-BD3F565C70D0}|Barbarians.vbproj|c:\\users\\alber\\onedrive - institut teknologi bandung\\documents\\code\\csharp\\tubes3_barbarians\\src\\barbarians\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8961D50C-9CB6-46B1-AB40-BD3F565C70D0}|Barbarians.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8961D50C-9CB6-46B1-AB40-BD3F565C70D0}|Barbarians.vbproj|c:\\users\\alber\\onedrive - institut teknologi bandung\\documents\\code\\csharp\\tubes3_barbarians\\src\\barbarians\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{8961D50C-9CB6-46B1-AB40-BD3F565C70D0}|Barbarians.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8961D50C-9CB6-46B1-AB40-BD3F565C70D0}|Barbarians.vbproj|c:\\users\\alber\\onedrive - institut teknologi bandung\\documents\\code\\csharp\\tubes3_barbarians\\src\\barbarians\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{8961D50C-9CB6-46B1-AB40-BD3F565C70D0}|Barbarians.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{8961D50C-9CB6-46B1-AB40-BD3F565C70D0}|Barbarians.vbproj|C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\Barbarians\\BM.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8961D50C-9CB6-46B1-AB40-BD3F565C70D0}|Barbarians.vbproj|solutionrelative:BM.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8961D50C-9CB6-46B1-AB40-BD3F565C70D0}|Barbarians.vbproj|C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\Barbarians\\BM.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{8961D50C-9CB6-46B1-AB40-BD3F565C70D0}|Barbarians.vbproj|solutionrelative:BM.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8961D50C-9CB6-46B1-AB40-BD3F565C70D0}|Barbarians.vbproj|C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\Barbarians\\KMB.Designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{8961D50C-9CB6-46B1-AB40-BD3F565C70D0}|Barbarians.vbproj|solutionrelative:KMB.Designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8961D50C-9CB6-46B1-AB40-BD3F565C70D0}|Barbarians.vbproj|C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\Barbarians\\KMB.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{8961D50C-9CB6-46B1-AB40-BD3F565C70D0}|Barbarians.vbproj|solutionrelative:KMB.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,31 +34,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "KMB.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\Barbarians\\KMB.vb",
-              "RelativeDocumentMoniker": "KMB.vb",
-              "ToolTip": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\Barbarians\\KMB.vb [Design]",
-              "RelativeToolTip": "KMB.vb [Design]",
+              "DocumentIndex": 4,
+              "Title": "KMB.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\Barbarians\\KMB.Designer.vb",
+              "RelativeDocumentMoniker": "KMB.Designer.vb",
+              "ToolTip": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\Barbarians\\KMB.Designer.vb",
+              "RelativeToolTip": "KMB.Designer.vb",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAYwB0AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-11T18:48:30.148Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-13T06:52:48.663Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.vb",
               "DocumentMoniker": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\Barbarians\\Form1.vb",
               "RelativeDocumentMoniker": "Form1.vb",
               "ToolTip": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\Barbarians\\Form1.vb",
               "RelativeToolTip": "Form1.vb",
-              "ViewState": "AQIAABUAAAAAAAAAAIAzwCIAAAAAAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAuwDcAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-11T17:30:21.185Z",
+              "WhenOpened": "2024-05-19T19:14:34.603Z",
               "EditorCaption": ""
             },
             {
@@ -58,8 +72,44 @@
               "ToolTip": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\Barbarians\\Form1.vb [Design]",
               "RelativeToolTip": "Form1.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-05-11T15:50:41.239Z",
+              "WhenOpened": "2024-05-19T18:46:29.255Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BM.vb",
+              "DocumentMoniker": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\Barbarians\\BM.vb",
+              "RelativeDocumentMoniker": "BM.vb",
+              "ToolTip": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\Barbarians\\BM.vb",
+              "RelativeToolTip": "BM.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-13T07:28:26.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BM.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\Barbarians\\BM.vb",
+              "RelativeDocumentMoniker": "BM.vb",
+              "ToolTip": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\Barbarians\\BM.vb [Design]",
+              "RelativeToolTip": "BM.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-13T07:09:22.807Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KMB.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\Barbarians\\KMB.vb",
+              "RelativeDocumentMoniker": "KMB.vb",
+              "ToolTip": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\Barbarians\\KMB.vb [Design]",
+              "RelativeToolTip": "KMB.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-13T07:01:53.522Z"
             }
           ]
         }

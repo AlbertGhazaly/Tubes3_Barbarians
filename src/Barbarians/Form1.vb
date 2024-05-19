@@ -34,4 +34,30 @@
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
 
     End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs)
+        Hide()
+        KMB.Show()
+
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs)
+        Hide()
+        BM.Show()
+    End Sub
+
+    Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs)
+
+    End Sub
+
+    Private Sub Button3_Click_1(sender As Object, e As EventArgs) Handles Button3.Click
+        Hide()
+        KMB.Show()
+    End Sub
+
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
+        Hide()
+        BM.Show()
+    End Sub
 End Class
