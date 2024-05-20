@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7RAn2IZjIQMFWw4oSRe4PpQFSd8WTZmrLIItM1VNzde1RjpAXwh4X3IO8rDk1AKHZii8gzqBs05EeiLeuPMoqA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\TestingMain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\sixlabors.imagesharp\\3.1.4\\sixlabors.imagesharp.3.1.4.nupkg.sha512"
+  ],
+  "logs": []
+}
