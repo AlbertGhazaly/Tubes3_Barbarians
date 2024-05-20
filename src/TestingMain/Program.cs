@@ -11,9 +11,15 @@ namespace TestMain
             string directoryPath = "Sample/";
             Console.WriteLine(rootDirectory);
 
-            // Instantiate and use the BitmapParser class
-            var bitmapParser = new BitmapParser(directoryPath);
-            bitmapParser.ParseAllAndPrintASCII();
+            var bitmapParser = new BitmapParserBuilder(directoryPath,0,4);
+            bitmapParser.ParseMapAscii();
+            //bitmapParser.PrintAllMap();
+            
+            Dictionary<int, FingerString> asciiMap = bitmapParser.AsciiMap; // Build map , isi <int,FingerString>
+            FingerString banding = asciiMap[2]; // sementara bandingin dari map juga, masalah input bmp nanti aja di UI
+            banding.displayData();
+
+
 
 
         }
