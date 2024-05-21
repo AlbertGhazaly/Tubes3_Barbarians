@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LogicLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9af41a97641954b35258a24ca4b0cdae53143b2e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f91963d1b95d64f7be6474f1035096001aa6e9cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("LogicLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LogicLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

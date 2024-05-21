@@ -8,8 +8,7 @@ namespace LogicLibrary.Parser
 {
     public class BitmapParserBuilder
     {
-        private int height_offset;
-        private int width_offset;
+        private int left_x; private int left_y; private int right_x; private int right_y;
         private string _directoryPath;
         private System.Text.StringBuilder _bitStringBuilder;
         private System.Text.StringBuilder _asciiStringBuilder;
@@ -18,18 +17,22 @@ namespace LogicLibrary.Parser
         public BitmapParserBuilder(string directoryPath)
         {
             _directoryPath = directoryPath;
-            height_offset = 0;
-            width_offset = 0;
+            left_x = 0;
+            left_y = 0;
+            right_x = 96;
+            right_y = 103;
             _bitStringBuilder = new System.Text.StringBuilder();
             _asciiStringBuilder = new System.Text.StringBuilder();
             _asciiMap = new Dictionary<int, FingerString>();
         }
 
-        public BitmapParserBuilder(string directoryPath, int height, int width)
+        public BitmapParserBuilder(string directoryPath, int leftx, int rightx,int lefty,int righty)
         {
             _directoryPath = directoryPath;
-            height_offset = height;
-            width_offset = width;
+            left_x = leftx;
+            left_y = lefty;
+            right_x = rightx;
+            right_y = righty;
             _bitStringBuilder = new System.Text.StringBuilder();
             _asciiStringBuilder = new System.Text.StringBuilder();
             _asciiMap = new Dictionary<int, FingerString>();
@@ -53,6 +56,20 @@ namespace LogicLibrary.Parser
             set { _asciiMap = value; }
         }
 
+        public void PrintBinaryAll()
+        {
+            Console.WriteLine(this._directoryPath);
+            string[] bmpFiles = Directory.GetFiles(_directoryPath, "*.BMP");
+
+            foreach (string filePath in bmpFiles)
+            {
+                Console.WriteLine($"Processing file: {Path.GetFileName(filePath)}");
+                using (Image<Rgba32> image = Image.Load<Rgba32>(filePath))
+                {
+                    PrintbinaryImage(image);
+                }
+            }
+        }
         public void ParseMapAscii()
         {
             Console.WriteLine(this._directoryPath);
@@ -64,7 +81,7 @@ namespace LogicLibrary.Parser
                 Console.WriteLine($"Processing file: {Path.GetFileName(filePath)}");
                 using (Image<Rgba32> image = Image.Load<Rgba32>(filePath))
                 {
-                    Console.WriteLine($"H : {image.Height - height_offset} L: {image.Width - width_offset}");
+                    Console.WriteLine($"H : {right_y - left_y} L: {right_x - left_x}");
                     string bitString = ParseBits(image);
                     ConvertBitsToAscii();
                     string asciiString = _asciiStringBuilder.ToString();
@@ -75,28 +92,61 @@ namespace LogicLibrary.Parser
                 }
             }
         }
-     
 
 
-        private string ParseBits(Image<Rgba32> image)
+        private void PrintbinaryImage(Image<Rgba32> image) // buat milih pixel yg bagus
         {
+            for (int x = left_x; x < right_x; x++)
+            {
+                Console.Write(x % 10);
+            }
+            Console.WriteLine();
             using (var clone = image.CloneAs<Rgba32>())
             {
-                _bitStringBuilder.Clear(); // Clear existing data
-                for (int y = 0; y < clone.Height - height_offset; y++)
+               
+                for (int y = left_y ; y < right_y; y++)
                 {
-                    for (int x = 0; x < clone.Width - width_offset; x++)
+                    Console.Write($"{y} ");
+                    for (int x = left_x; x <  right_x; x++)
                     {
                         Rgba32 pixel = clone[x, y];
                         double luminance = CalculateLuminance(pixel);
 
                         if (luminance > 128)
                         {
-                            _bitStringBuilder.Append("1");
+                            Console.Write("0");
                         }
                         else
                         {
+                            Console.Write("1");
+                        }
+                    }
+                    Console.WriteLine();
+                    
+                    
+                }
+
+            }
+        }
+        private string ParseBits(Image<Rgba32> image)
+        {
+            using (var clone = image.CloneAs<Rgba32>())
+            {
+                _bitStringBuilder.Clear(); // Clear existing data
+                for (int y = left_y; y <  right_y; y++)
+                {
+                    for (int x = left_x; x <  right_x; x++)
+                    {
+                        Rgba32 pixel = clone[x, y];
+                        double luminance = CalculateLuminance(pixel);
+
+                        if (luminance > 128)
+                        {
                             _bitStringBuilder.Append("0");
+                        }
+                        else
+                        {
+                            _bitStringBuilder.Append("1");
                         }
                     }
                 }

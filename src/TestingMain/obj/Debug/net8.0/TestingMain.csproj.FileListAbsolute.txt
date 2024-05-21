@@ -18,3 +18,5 @@ C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\Testi
 C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\TestingMain\obj\Debug\net8.0\TestingMain.pdb
 C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\TestingMain\obj\Debug\net8.0\TestingMain.genruntimeconfig.cache
 C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\TestingMain\obj\Debug\net8.0\ref\TestingMain.dll
+C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\TestingMain\bin\Debug\net8.0\KMP.dll
+C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\TestingMain\bin\Debug\net8.0\KMP.pdb
