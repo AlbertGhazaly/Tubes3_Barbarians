@@ -14,3 +14,19 @@ C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\KMP\o
 C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\KMP\obj\Debug\net8.0\refint\KMP.dll
 C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\KMP\obj\Debug\net8.0\KMP.pdb
 C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\KMP\obj\Debug\net8.0\ref\KMP.dll
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\KMP\bin\Debug\net8.0\KMP.deps.json
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\KMP\bin\Debug\net8.0\KMP.dll
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\KMP\bin\Debug\net8.0\KMP.pdb
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\KMP\bin\Debug\net8.0\LogicLibrary.dll
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\KMP\bin\Debug\net8.0\LogicLibrary.pdb
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\KMP\obj\Debug\net8.0\KMP.csproj.AssemblyReference.cache
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\KMP\obj\Debug\net8.0\KMP.GeneratedMSBuildEditorConfig.editorconfig
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\KMP\obj\Debug\net8.0\KMP.AssemblyInfoInputs.cache
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\KMP\obj\Debug\net8.0\KMP.AssemblyInfo.cs
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\KMP\obj\Debug\net8.0\KMP.csproj.CoreCompileInputs.cache
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\KMP\obj\Debug\net8.0\KMP.sourcelink.json
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\KMP\obj\Debug\net8.0\KMP.csproj.Up2Date
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\KMP\obj\Debug\net8.0\KMP.dll
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\KMP\obj\Debug\net8.0\refint\KMP.dll
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\KMP\obj\Debug\net8.0\KMP.pdb
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\KMP\obj\Debug\net8.0\ref\KMP.dll

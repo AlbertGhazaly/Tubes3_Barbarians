@@ -2,6 +2,7 @@
 using System.IO;
 using LogicLibrary.Parser;
 using KMPSpace;
+using BMSpace;
 namespace TestMain
 {
     class Program
@@ -26,12 +27,18 @@ namespace TestMain
             FingerString banding = asciiMap[1]; // sementara bandingin dari map juga, masalah input bmp nanti aja di UI
             banding.displayData();
 
-            //FingerString tes = new FingerString("tes", "ABABAABA");
-            //FingerString testarget = new FingerString("tes", "ABCABAB ABABABAABAC");
-            //Dictionary<int, FingerString> tesmap = new Dictionary<int, FingerString>();
-            //tesmap.Add(1, testarget);
+            FingerString tes = new FingerString("tes", "ABABAABA");
+            FingerString testarget = new FingerString("tes", "ABCABAB ABABABAABAC");
+            Dictionary<int, FingerString> tesmap = new Dictionary<int, FingerString>();
+            tesmap.Add(1, testarget);
             KMP kmp = new KMP(bitmapParser.AsciiMap, banding);
             kmp.searchKMP();
+            BM bm = new BM(bitmapParser.AsciiMap, banding);
+            bm.searchBM();
+            BM bm2 = new BM(tesmap, tes);
+            bm2.searchBM();
+
+
             
 
 

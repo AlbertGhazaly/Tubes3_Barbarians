@@ -11,3 +11,16 @@ C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\Logic
 C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\LogicLibrary\obj\Debug\net8.0\refint\LogicLibrary.dll
 C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\LogicLibrary\obj\Debug\net8.0\LogicLibrary.pdb
 C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\LogicLibrary\obj\Debug\net8.0\ref\LogicLibrary.dll
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\LogicLibrary\bin\Debug\net8.0\LogicLibrary.deps.json
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\LogicLibrary\bin\Debug\net8.0\LogicLibrary.dll
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\LogicLibrary\bin\Debug\net8.0\LogicLibrary.pdb
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\LogicLibrary\obj\Debug\net8.0\LogicLibrary.csproj.AssemblyReference.cache
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\LogicLibrary\obj\Debug\net8.0\LogicLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\LogicLibrary\obj\Debug\net8.0\LogicLibrary.AssemblyInfoInputs.cache
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\LogicLibrary\obj\Debug\net8.0\LogicLibrary.AssemblyInfo.cs
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\LogicLibrary\obj\Debug\net8.0\LogicLibrary.csproj.CoreCompileInputs.cache
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\LogicLibrary\obj\Debug\net8.0\LogicLibrary.sourcelink.json
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\LogicLibrary\obj\Debug\net8.0\LogicLibrary.dll
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\LogicLibrary\obj\Debug\net8.0\refint\LogicLibrary.dll
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\LogicLibrary\obj\Debug\net8.0\LogicLibrary.pdb
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\LogicLibrary\obj\Debug\net8.0\ref\LogicLibrary.dll

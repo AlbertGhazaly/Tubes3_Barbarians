@@ -20,3 +20,27 @@ C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\Testi
 C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\TestingMain\obj\Debug\net8.0\ref\TestingMain.dll
 C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\TestingMain\bin\Debug\net8.0\KMP.dll
 C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\TestingMain\bin\Debug\net8.0\KMP.pdb
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\bin\Debug\net8.0\TestingMain.exe
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\bin\Debug\net8.0\TestingMain.deps.json
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\bin\Debug\net8.0\TestingMain.runtimeconfig.json
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\bin\Debug\net8.0\TestingMain.dll
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\bin\Debug\net8.0\TestingMain.pdb
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\bin\Debug\net8.0\SixLabors.ImageSharp.dll
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\bin\Debug\net8.0\KMP.dll
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\bin\Debug\net8.0\LogicLibrary.dll
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\bin\Debug\net8.0\KMP.pdb
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\bin\Debug\net8.0\LogicLibrary.pdb
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\TestingMain.csproj.AssemblyReference.cache
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\TestingMain.GeneratedMSBuildEditorConfig.editorconfig
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\TestingMain.AssemblyInfoInputs.cache
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\TestingMain.AssemblyInfo.cs
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\TestingMain.csproj.CoreCompileInputs.cache
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\TestingMain.sourcelink.json
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\TestingM.9A74EC43.Up2Date
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\TestingMain.dll
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\refint\TestingMain.dll
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\TestingMain.pdb
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\TestingMain.genruntimeconfig.cache
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\ref\TestingMain.dll
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\bin\Debug\net8.0\BM.dll
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\bin\Debug\net8.0\BM.pdb

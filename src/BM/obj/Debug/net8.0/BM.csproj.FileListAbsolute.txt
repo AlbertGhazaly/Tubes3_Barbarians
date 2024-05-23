@@ -1,0 +1,16 @@
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\BM\obj\Debug\net8.0\BM.csproj.AssemblyReference.cache
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\BM\obj\Debug\net8.0\BM.GeneratedMSBuildEditorConfig.editorconfig
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\BM\obj\Debug\net8.0\BM.AssemblyInfoInputs.cache
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\BM\obj\Debug\net8.0\BM.AssemblyInfo.cs
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\BM\obj\Debug\net8.0\BM.csproj.CoreCompileInputs.cache
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\BM\obj\Debug\net8.0\BM.sourcelink.json
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\BM\bin\Debug\net8.0\BM.deps.json
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\BM\bin\Debug\net8.0\BM.dll
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\BM\bin\Debug\net8.0\BM.pdb
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\BM\bin\Debug\net8.0\LogicLibrary.dll
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\BM\bin\Debug\net8.0\LogicLibrary.pdb
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\BM\obj\Debug\net8.0\BM.csproj.Up2Date
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\BM\obj\Debug\net8.0\BM.dll
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\BM\obj\Debug\net8.0\refint\BM.dll
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\BM\obj\Debug\net8.0\BM.pdb
+D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\BM\obj\Debug\net8.0\ref\BM.dll

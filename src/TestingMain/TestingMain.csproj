@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\KMP\KMP.csproj" />
+    <ProjectReference Include="..\BM\BM.csproj" />
     <ProjectReference Include="..\LogicLibrary\LogicLibrary.csproj" />
   </ItemGroup>
 
