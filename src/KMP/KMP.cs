@@ -34,6 +34,7 @@ namespace KMPSpace
 
         }    
 
+
         public void searchKMP()
         {
             initBorderFunc();

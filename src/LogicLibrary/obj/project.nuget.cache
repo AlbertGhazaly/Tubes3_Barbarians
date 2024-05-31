@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "HqyoKmLeRkmaw5ThieqQLhdqGRDvfVHbSirOOkhcDa2jGnD4Gc1H89cMnKZ8lNI7M4qa2QFew1RC6dKZMoh4Rw==",
+  "dgSpecHash": "915PAN1ZqPUGT88s7CYjxgosQQO95epiqs0h9K5N6DJS6qWy8k+Za1I2u/HY5OHwCmaE/lH++SRHHfJhDtdCOw==",
   "success": true,
-  "projectFilePath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj",
+  "projectFilePath": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Owner\\.nuget\\packages\\sixlabors.imagesharp\\3.1.4\\sixlabors.imagesharp.3.1.4.nupkg.sha512"
+    "C:\\Users\\lordhugo\\.nuget\\packages\\sixlabors.imagesharp\\3.1.4\\sixlabors.imagesharp.3.1.4.nupkg.sha512"
   ],
   "logs": []
 }

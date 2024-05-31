@@ -44,19 +44,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Owner\\.nuget\\packages\\": {}
+    "C:\\Users\\lordhugo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj",
       "projectName": "LogicLibrary",
-      "projectPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj",
-      "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-      "outputPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\LogicLibrary\\obj\\",
+      "projectPath": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj",
+      "packagesPath": "C:\\Users\\lordhugo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\LogicLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lordhugo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -108,7 +108,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

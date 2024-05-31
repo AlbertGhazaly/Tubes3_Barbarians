@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\TestingMain\\TestingMain.csproj": {}
+    "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\TestingMain\\TestingMain.csproj": {}
   },
   "projects": {
-    "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\BM\\BM.csproj": {
+    "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\BM\\BM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\BM\\BM.csproj",
+        "projectUniqueName": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\BM\\BM.csproj",
         "projectName": "BM",
-        "projectPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\BM\\BM.csproj",
-        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\BM\\obj\\",
+        "projectPath": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\BM\\BM.csproj",
+        "packagesPath": "C:\\Users\\lordhugo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\BM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lordhugo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj": {
-                "projectPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj"
+              "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj": {
+                "projectPath": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj"
               }
             }
           }
@@ -64,21 +64,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\KMP\\KMP.csproj": {
+    "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\KMP\\KMP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\KMP\\KMP.csproj",
+        "projectUniqueName": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\KMP\\KMP.csproj",
         "projectName": "KMP",
-        "projectPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\KMP\\KMP.csproj",
-        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\KMP\\obj\\",
+        "projectPath": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\KMP\\KMP.csproj",
+        "packagesPath": "C:\\Users\\lordhugo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\KMP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lordhugo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,8 +92,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj": {
-                "projectPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj"
+              "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj": {
+                "projectPath": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj"
               }
             }
           }
@@ -128,21 +128,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj": {
+    "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj",
         "projectName": "LogicLibrary",
-        "projectPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj",
-        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\LogicLibrary\\obj\\",
+        "projectPath": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj",
+        "packagesPath": "C:\\Users\\lordhugo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\LogicLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lordhugo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -194,21 +194,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\TestingMain\\TestingMain.csproj": {
+    "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\TestingMain\\TestingMain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\TestingMain\\TestingMain.csproj",
+        "projectUniqueName": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\TestingMain\\TestingMain.csproj",
         "projectName": "TestingMain",
-        "projectPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\TestingMain\\TestingMain.csproj",
-        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\TestingMain\\obj\\",
+        "projectPath": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\TestingMain\\TestingMain.csproj",
+        "packagesPath": "C:\\Users\\lordhugo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\TestingMain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lordhugo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -222,14 +222,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\BM\\BM.csproj": {
-                "projectPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\BM\\BM.csproj"
+              "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\BM\\BM.csproj": {
+                "projectPath": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\BM\\BM.csproj"
               },
-              "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\KMP\\KMP.csproj": {
-                "projectPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\KMP\\KMP.csproj"
+              "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\KMP\\KMP.csproj": {
+                "projectPath": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\KMP\\KMP.csproj"
               },
-              "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj": {
-                "projectPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj"
+              "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj": {
+                "projectPath": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj"
               }
             }
           }
@@ -264,7 +264,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

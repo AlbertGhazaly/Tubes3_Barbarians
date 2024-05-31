@@ -8,7 +8,10 @@ namespace LogicLibrary.Parser
 {
     public class BitmapParserBuilder
     {
-        private int left_x; private int left_y; private int right_x; private int right_y;
+        private int left_x;
+        private int left_y;
+        private int right_x;
+        private int right_y;
         private string _directoryPath;
         private System.Text.StringBuilder _bitStringBuilder;
         private System.Text.StringBuilder _asciiStringBuilder;
@@ -19,23 +22,45 @@ namespace LogicLibrary.Parser
             _directoryPath = directoryPath;
             left_x = 0;
             left_y = 0;
-            right_x = 96;
-            right_y = 103;
+
+            // Inisialisasi ukuran gambar pertama di direktori
+            InitializeImageSize(directoryPath);
+
             _bitStringBuilder = new System.Text.StringBuilder();
             _asciiStringBuilder = new System.Text.StringBuilder();
             _asciiMap = new Dictionary<int, FingerString>();
         }
 
-        public BitmapParserBuilder(string directoryPath, int leftx, int rightx,int lefty,int righty)
+        public BitmapParserBuilder(string directoryPath, int offsetX,int offsetY)
         {
             _directoryPath = directoryPath;
-            left_x = leftx;
-            left_y = lefty;
-            right_x = rightx;
-            right_y = righty;
+
+            InitializeImageSize(directoryPath);
+            left_x = right_x / 2;
+            left_y = right_y / 2;
+            right_x = left_x + offsetX;
+            right_y = left_y + offsetY;
+
             _bitStringBuilder = new System.Text.StringBuilder();
             _asciiStringBuilder = new System.Text.StringBuilder();
             _asciiMap = new Dictionary<int, FingerString>();
+        }
+
+        private void InitializeImageSize(string directoryPath)
+        {
+            string[] bmpFiles = Directory.GetFiles(directoryPath, "*.BMP");
+            if (bmpFiles.Length > 0)
+            {
+                using (Image<Rgba32> image = Image.Load<Rgba32>(bmpFiles[0]))
+                {
+                    right_x = image.Width;
+                    right_y = image.Height;
+                }
+            }
+            else
+            {
+                throw new FileNotFoundException("No BMP files found in the specified directory.");
+            }
         }
 
         public System.Text.StringBuilder BitStringBuilder
@@ -70,6 +95,7 @@ namespace LogicLibrary.Parser
                 }
             }
         }
+
         public void ParseMapAscii()
         {
             Console.WriteLine(this._directoryPath);
@@ -93,7 +119,6 @@ namespace LogicLibrary.Parser
             }
         }
 
-
         private void PrintbinaryImage(Image<Rgba32> image) // buat milih pixel yg bagus
         {
             for (int x = left_x; x < right_x; x++)
@@ -103,11 +128,10 @@ namespace LogicLibrary.Parser
             Console.WriteLine();
             using (var clone = image.CloneAs<Rgba32>())
             {
-               
-                for (int y = left_y ; y < right_y; y++)
+                for (int y = left_y; y < right_y; y++)
                 {
                     Console.Write($"{y} ");
-                    for (int x = left_x; x <  right_x; x++)
+                    for (int x = left_x; x < right_x; x++)
                     {
                         Rgba32 pixel = clone[x, y];
                         double luminance = CalculateLuminance(pixel);
@@ -122,20 +146,18 @@ namespace LogicLibrary.Parser
                         }
                     }
                     Console.WriteLine();
-                    
-                    
                 }
-
             }
         }
+
         private string ParseBits(Image<Rgba32> image)
         {
             using (var clone = image.CloneAs<Rgba32>())
             {
                 _bitStringBuilder.Clear(); // Clear existing data
-                for (int y = left_y; y <  right_y; y++)
+                for (int y = left_y; y < right_y; y++)
                 {
-                    for (int x = left_x; x <  right_x; x++)
+                    for (int x = left_x; x < right_x; x++)
                     {
                         Rgba32 pixel = clone[x, y];
                         double luminance = CalculateLuminance(pixel);
@@ -174,6 +196,7 @@ namespace LogicLibrary.Parser
         {
             return 0.299 * color.R + 0.587 * color.G + 0.114 * color.B;
         }
+
         public void PrintAllMap()
         {
             Console.WriteLine("Printing ASCII Map:");
@@ -184,7 +207,18 @@ namespace LogicLibrary.Parser
                 Console.WriteLine();
             }
         }
+        public void PrintMap(int id)
+        {
+            Console.WriteLine("Print ASCII map id " + id);
+            if (_asciiMap.ContainsKey(id))
+            {
+                FingerString value = _asciiMap[id];
+                value.displayData();
+            }
+            else
+            {
+                Console.WriteLine("Key not found in the map.");
+            }
+        }
     }
-
-    
 }

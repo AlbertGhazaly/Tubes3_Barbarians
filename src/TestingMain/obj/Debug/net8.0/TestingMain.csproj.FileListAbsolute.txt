@@ -44,3 +44,27 @@ D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\Testing
 D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\ref\TestingMain.dll
 D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\bin\Debug\net8.0\BM.dll
 D:\KULIAH\SEM 4\STIMA\Tubes3_Barbarians\src\TestingMain\bin\Debug\net8.0\BM.pdb
+C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\TestingMain.dll
+C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\refint\TestingMain.dll
+C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\TestingMain.pdb
+C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\bin\Debug\net8.0\TestingMain.exe
+C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\bin\Debug\net8.0\TestingMain.deps.json
+C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\bin\Debug\net8.0\TestingMain.runtimeconfig.json
+C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\bin\Debug\net8.0\TestingMain.dll
+C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\bin\Debug\net8.0\TestingMain.pdb
+C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\bin\Debug\net8.0\SixLabors.ImageSharp.dll
+C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\bin\Debug\net8.0\BM.dll
+C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\bin\Debug\net8.0\KMP.dll
+C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\bin\Debug\net8.0\LogicLibrary.dll
+C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\bin\Debug\net8.0\KMP.pdb
+C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\bin\Debug\net8.0\BM.pdb
+C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\bin\Debug\net8.0\LogicLibrary.pdb
+C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\TestingMain.csproj.AssemblyReference.cache
+C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\TestingMain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\TestingMain.AssemblyInfoInputs.cache
+C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\TestingMain.AssemblyInfo.cs
+C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\TestingMain.csproj.CoreCompileInputs.cache
+C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\TestingMain.sourcelink.json
+C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\TestingM.9A74EC43.Up2Date
+C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\TestingMain.genruntimeconfig.cache
+C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\ref\TestingMain.dll

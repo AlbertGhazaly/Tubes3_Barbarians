@@ -14,29 +14,32 @@ namespace TestMain
             Console.WriteLine(rootDirectory);
             //H : 103, W : 96 - data dari sample asisten
             //var bitmapParser = new BitmapParserBuilder(directoryPath, 0, 96,0, 103);  //1 *32, 2* 16, 4* 8
-            var sample = new BitmapParserBuilder(directoryPath, 33, 63, 46, 47); // buat sampel banding
+            var sample = new BitmapParserBuilder(directoryPath,2,16); // buat sampel banding
             var bitmapParser = new BitmapParserBuilder(directoryPath);
             bitmapParser.ParseMapAscii();
             //bitmapParser.PrintBinaryAll();
             //bitmapParser.PrintAllMap();
 
             sample.ParseMapAscii();
-            sample.PrintBinaryAll();
-            sample.PrintAllMap();
+            //sample.PrintBinaryAll();
+            //sample.PrintAllMap();
             Dictionary<int, FingerString> asciiMap = sample.AsciiMap; // Build map , isi <int,FingerString>
-            FingerString banding = asciiMap[1]; // sementara bandingin dari map juga, masalah input bmp nanti aja di UI
+            FingerString banding = asciiMap[15]; // sementara bandingin dari map juga, masalah input bmp nanti aja di UI
             banding.displayData();
+            bitmapParser.PrintMap(15);
 
-            FingerString tes = new FingerString("tes", "ABABAABA");
-            FingerString testarget = new FingerString("tes", "ABCABAB ABABABAABAC");
+            //FingerString tes = new FingerString("tes", "ABABAABA");
+            //FingerString testarget = new FingerString("tes", "ABCABAB ABABABAABAC");
             Dictionary<int, FingerString> tesmap = new Dictionary<int, FingerString>();
-            tesmap.Add(1, testarget);
+            //tesmap.Add(1, testarget);
             KMP kmp = new KMP(bitmapParser.AsciiMap, banding);
             kmp.searchKMP();
             BM bm = new BM(bitmapParser.AsciiMap, banding);
             bm.searchBM();
-            BM bm2 = new BM(tesmap, tes);
-            bm2.searchBM();
+            //BM bm2 = new BM(tesmap, tes);
+            //bm2.searchBM();
+            //KMP km2 = new KMP(tesmap, tes);
+            //km2.searchKMP();
 
 
             

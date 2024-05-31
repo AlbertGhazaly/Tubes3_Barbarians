@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogicLibrary", "..\LogicLib
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingMain", "..\TestingMain\TestingMain.csproj", "{AA6B41AC-A537-4B35-B085-4529B558EFC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KMP", "..\KMP\KMP.csproj", "{D66542AA-ED05-4CB3-9304-F57DC33627F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KMP", "..\KMP\KMP.csproj", "{D66542AA-ED05-4CB3-9304-F57DC33627F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BM", "..\BM\BM.csproj", "{F09D14AE-570C-47C4-9C10-F8D408CB587B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D66542AA-ED05-4CB3-9304-F57DC33627F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D66542AA-ED05-4CB3-9304-F57DC33627F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D66542AA-ED05-4CB3-9304-F57DC33627F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F09D14AE-570C-47C4-9C10-F8D408CB587B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09D14AE-570C-47C4-9C10-F8D408CB587B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09D14AE-570C-47C4-9C10-F8D408CB587B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09D14AE-570C-47C4-9C10-F8D408CB587B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
