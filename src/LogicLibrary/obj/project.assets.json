@@ -44,19 +44,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lordhugo\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\LogicLibrary.csproj",
       "projectName": "LogicLibrary",
-      "projectPath": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj",
-      "packagesPath": "C:\\Users\\lordhugo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\LogicLibrary\\obj\\",
+      "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\LogicLibrary.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lordhugo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

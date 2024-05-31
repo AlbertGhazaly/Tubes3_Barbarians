@@ -23,43 +23,73 @@ namespace LogicLibrary.Parser
             left_x = 0;
             left_y = 0;
 
-            // Inisialisasi ukuran gambar pertama di direktori
+            // Inisialisasi ukuran gambar pertama di direktori atau file
             InitializeImageSize(directoryPath);
 
             _bitStringBuilder = new System.Text.StringBuilder();
             _asciiStringBuilder = new System.Text.StringBuilder();
             _asciiMap = new Dictionary<int, FingerString>();
+            Console.WriteLine($"H : {right_y - left_y} L: {right_x - left_x}");
         }
 
-        public BitmapParserBuilder(string directoryPath, int offsetX,int offsetY)
+        public BitmapParserBuilder(string directoryPath, int offsetX, int offsetY)
         {
             _directoryPath = directoryPath;
 
             InitializeImageSize(directoryPath);
+            //Sample selalu diambil height / 2 dan width bagi 2
             left_x = right_x / 2;
             left_y = right_y / 2;
+            int startbit = right_x * (left_y - 1) + left_x;
+            Console.WriteLine($"Sample diambil harus kelipatan 8 bit!, sekarang diambil mulai dari bit ke-{startbit} bit atau {right_x} * {left_y - 1} + {left_x}");
+            //Handling kalo image yang diinput mulai samplenya bukan kelipatan 8
+            if (startbit % 8 != 0)
+            {
+                Console.WriteLine("tidak kelipatan 8 bit!, tidak akan berhasil"); // harus diubah
+                Console.WriteLine($"harus geser {startbit%8} bit");
+                left_x -= startbit % 8;
+            }
             right_x = left_x + offsetX;
             right_y = left_y + offsetY;
+            Console.WriteLine($"Diambil pixel dari Width {left_x} ke {right_x} dan Height dari {left_y} ke {right_y - 1}");
 
             _bitStringBuilder = new System.Text.StringBuilder();
             _asciiStringBuilder = new System.Text.StringBuilder();
             _asciiMap = new Dictionary<int, FingerString>();
+            Console.WriteLine($"H : {right_y - left_y} L: {right_x - left_x}");
         }
 
-        private void InitializeImageSize(string directoryPath)
+        private void InitializeImageSize(string path)
         {
-            string[] bmpFiles = Directory.GetFiles(directoryPath, "*.BMP");
-            if (bmpFiles.Length > 0)
+            if (File.Exists(path))
             {
-                using (Image<Rgba32> image = Image.Load<Rgba32>(bmpFiles[0]))
+                // The path is a single file
+                using (Image<Rgba32> image = Image.Load<Rgba32>(path))
                 {
                     right_x = image.Width;
                     right_y = image.Height;
                 }
             }
+            else if (Directory.Exists(path))
+            {
+                // The path is a directory
+                string[] bmpFiles = Directory.GetFiles(path, "*.BMP");
+                if (bmpFiles.Length > 0)
+                {
+                    using (Image<Rgba32> image = Image.Load<Rgba32>(bmpFiles[0]))
+                    {
+                        right_x = image.Width;
+                        right_y = image.Height;
+                    }
+                }
+                else
+                {
+                    throw new FileNotFoundException("No BMP files found in the specified directory.");
+                }
+            }
             else
             {
-                throw new FileNotFoundException("No BMP files found in the specified directory.");
+                throw new FileNotFoundException("The specified path is neither a valid file nor a directory.");
             }
         }
 
@@ -84,14 +114,24 @@ namespace LogicLibrary.Parser
         public void PrintBinaryAll()
         {
             Console.WriteLine(this._directoryPath);
-            string[] bmpFiles = Directory.GetFiles(_directoryPath, "*.BMP");
 
-            foreach (string filePath in bmpFiles)
+            if (File.Exists(_directoryPath))
             {
-                Console.WriteLine($"Processing file: {Path.GetFileName(filePath)}");
-                using (Image<Rgba32> image = Image.Load<Rgba32>(filePath))
+                // Process single file
+                ProcessSingleFile(_directoryPath);
+            }
+            else
+            {
+                // Process directory
+                string[] bmpFiles = Directory.GetFiles(_directoryPath, "*.BMP");
+
+                foreach (string filePath in bmpFiles)
                 {
-                    PrintbinaryImage(image);
+                    //Console.WriteLine($"Processing file: {Path.GetFileName(filePath)}");
+                    using (Image<Rgba32> image = Image.Load<Rgba32>(filePath))
+                    {
+                        PrintbinaryImage(image);
+                    }
                 }
             }
         }
@@ -99,23 +139,39 @@ namespace LogicLibrary.Parser
         public void ParseMapAscii()
         {
             Console.WriteLine(this._directoryPath);
-            string[] bmpFiles = Directory.GetFiles(_directoryPath, "*.BMP");
             int fileId = 1; // Nomor identifikasi file
 
-            foreach (string filePath in bmpFiles)
+            if (File.Exists(_directoryPath))
             {
-                Console.WriteLine($"Processing file: {Path.GetFileName(filePath)}");
-                using (Image<Rgba32> image = Image.Load<Rgba32>(filePath))
-                {
-                    Console.WriteLine($"H : {right_y - left_y} L: {right_x - left_x}");
-                    string bitString = ParseBits(image);
-                    ConvertBitsToAscii();
-                    string asciiString = _asciiStringBuilder.ToString();
+                // Process single file
+                ProcessSingleFile(_directoryPath, fileId);
+            }
+            else
+            {
+                // Process directory
+                string[] bmpFiles = Directory.GetFiles(_directoryPath, "*.BMP");
 
-                    // Tambahkan hasil print ASCII ke dalam map
-                    _asciiMap[fileId] = new FingerString(Path.GetFileNameWithoutExtension(filePath), asciiString);
+                foreach (string filePath in bmpFiles)
+                {
+                    ProcessSingleFile(filePath, fileId);
                     fileId++;
                 }
+            }
+        }
+
+        private void ProcessSingleFile(string filePath, int fileId = 1)
+        {
+            //Console.WriteLine($"Processing file: {Path.GetFileName(filePath)}");
+            using (Image<Rgba32> image = Image.Load<Rgba32>(filePath))
+            {
+                //PrintbinaryImage(image);
+                //Console.WriteLine($"H : {right_y - left_y} L: {right_x - left_x}");
+                string bitString = ParseBits(image);
+                ConvertBitsToAscii();
+                string asciiString = _asciiStringBuilder.ToString();
+
+                // Tambahkan hasil print ASCII ke dalam map
+                _asciiMap[fileId] = new FingerString(Path.GetFileNameWithoutExtension(filePath), asciiString);
             }
         }
 
@@ -207,6 +263,7 @@ namespace LogicLibrary.Parser
                 Console.WriteLine();
             }
         }
+
         public void PrintMap(int id)
         {
             Console.WriteLine("Print ASCII map id " + id);

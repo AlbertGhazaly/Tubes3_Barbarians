@@ -9,6 +9,16 @@ namespace BMSpace
         private Dictionary<int, FingerString> fingermap;
         private FingerString inputF;
         private int[] LastOcc;
+        private List<FingerString> resultmatch;
+        private bool isFound;
+
+
+        public List<FingerString> Resultmatch
+        {
+            get { return resultmatch; }
+            set { resultmatch = value; }
+        }
+
 
         public Dictionary<int, FingerString> Fingermap
         {
@@ -21,12 +31,32 @@ namespace BMSpace
             get { return inputF; }
             set { inputF = value; }
         }
+        public void printHasil()
+        {
+            Console.WriteLine("=============BM==================");
+            if (this.isFound)
+            {
+                Console.WriteLine("Hasil yang ditemukan:");
+                foreach (var entry in resultmatch)
+                {
+                    Console.WriteLine($"Filename : {entry.FileName}");
+                }
+
+            }
+            else
+            {
+                Console.WriteLine("Tidak ada hasil yang ditemukan!");
+
+            }
+        }
 
 
         public BM(Dictionary<int, FingerString> fm, FingerString inputF) { 
             this.fingermap = fm;
             this.inputF = inputF;
             this.LastOcc = BuildLastOccurence(inputF.AsciiString);
+            this.resultmatch = new List<FingerString>(); 
+            this.isFound = false;
 
         }    
         private int[] BuildLastOccurence(string source)
@@ -71,9 +101,9 @@ namespace BMSpace
                     {
                         if (j == 0)
                         {
-                            Console.WriteLine("Found!");
-                            Console.WriteLine($"ditemukan di index {i}");
-                            Console.WriteLine($"Nama file yang dicari {inputF.FileName} , dan tujuan : {entry.Value.FileName}");
+                            //Console.WriteLine($"ditemukan di index {i}");
+                            this.isFound = true;
+                            resultmatch.Add(entry.Value);
                             break;
                         }
                         else 
@@ -88,9 +118,10 @@ namespace BMSpace
                         j = m - 1;
                     }
                     } while (i <= n-1);
-                Console.WriteLine("Not Found!");
                 continue; // no matches
             }
+            printHasil();
         }
     }
+
 }

@@ -8,6 +8,8 @@ namespace KMPSpace
         private Dictionary<int, FingerString> fingermap;
         private FingerString inputF;
         private List<int> borderfunc;
+        private List<FingerString> resultmatch;
+        private bool isFound;
 
         public Dictionary<int, FingerString> Fingermap
         {
@@ -26,11 +28,18 @@ namespace KMPSpace
             get { return borderfunc; }
             set { borderfunc = value; }
         }
+        public List<FingerString> Resultmatch
+        {
+            get { return resultmatch; }
+            set { resultmatch = value; }
+        }
 
         public KMP(Dictionary<int, FingerString> fm, FingerString inputF) { 
             this.fingermap = fm;
             this.inputF = inputF;
             this.borderfunc = Enumerable.Repeat(0, inputF.AsciiString.Length).ToList();
+            this.isFound = false;
+            this.resultmatch = new List<FingerString>();
 
         }    
 
@@ -71,19 +80,36 @@ namespace KMPSpace
                 }
                 if(j != borderfunc.Count)
                 {
-                    Console.WriteLine("tidak ditemukan");
                 }
                 else
                 {
-                    Console.WriteLine($"ditemukan di index {i - j}");
-                    Console.WriteLine($"Nama file yang dicari {inputF.FileName} , dan tujuan : {entry.Value.FileName}");
-                    break;
+                    resultmatch.Add(entry.Value);
+                    isFound = true;
                 }
 
 
 
             }
+            printHasil();
 
+        }
+        public void printHasil()
+        {
+            Console.WriteLine("=============KMP==================");
+            if (this.isFound)
+            { 
+                Console.WriteLine("Hasil yang ditemukan:");
+                foreach (var entry in resultmatch)
+                {
+                    Console.WriteLine($"Filename : {entry.FileName}");                    
+                }
+
+            }
+            else
+            {
+                Console.WriteLine("Tidak ada hasil yang ditemukan!");
+
+            }
         }
         public void initBorderFunc()
         {
@@ -119,7 +145,7 @@ namespace KMPSpace
                 }
 
             }
-            PrintBorderFunc();
+            //PrintBorderFunc();
 
 
         }

@@ -68,3 +68,5 @@ C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.
 C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\TestingM.9A74EC43.Up2Date
 C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\TestingMain.genruntimeconfig.cache
 C:\Users\lordhugo\Source\Repos\Tubes3_Barbarians\src\TestingMain\obj\Debug\net8.0\ref\TestingMain.dll
+C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\TestingMain\bin\Debug\net8.0\BM.dll
+C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\TestingMain\bin\Debug\net8.0\BM.pdb

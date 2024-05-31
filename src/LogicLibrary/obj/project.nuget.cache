@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "915PAN1ZqPUGT88s7CYjxgosQQO95epiqs0h9K5N6DJS6qWy8k+Za1I2u/HY5OHwCmaE/lH++SRHHfJhDtdCOw==",
+  "dgSpecHash": "KdMwj/XKoDvYOxwAz/VpqpIje3qMCh04/xU+FIEmAXkRD5PJ4lzFlK8hWrSpWijgT6nzuqrfJOLtJQNPpvRnJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj",
+  "projectFilePath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\LogicLibrary.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\lordhugo\\.nuget\\packages\\sixlabors.imagesharp\\3.1.4\\sixlabors.imagesharp.3.1.4.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\sixlabors.imagesharp\\3.1.4\\sixlabors.imagesharp.3.1.4.nupkg.sha512"
   ],
   "logs": []
 }

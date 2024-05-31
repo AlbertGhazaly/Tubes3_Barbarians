@@ -1,0 +1,16 @@
+C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\BM\bin\Release\net8.0\BM.deps.json
+C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\BM\bin\Release\net8.0\BM.dll
+C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\BM\bin\Release\net8.0\BM.pdb
+C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\BM\bin\Release\net8.0\LogicLibrary.dll
+C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\BM\bin\Release\net8.0\LogicLibrary.pdb
+C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\BM\obj\Release\net8.0\BM.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\BM\obj\Release\net8.0\BM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\BM\obj\Release\net8.0\BM.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\BM\obj\Release\net8.0\BM.AssemblyInfo.cs
+C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\BM\obj\Release\net8.0\BM.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\BM\obj\Release\net8.0\BM.sourcelink.json
+C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\BM\obj\Release\net8.0\BM.csproj.Up2Date
+C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\BM\obj\Release\net8.0\BM.dll
+C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\BM\obj\Release\net8.0\refint\BM.dll
+C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\BM\obj\Release\net8.0\BM.pdb
+C:\Users\User\OneDrive - Institut Teknologi Bandung\!KULIAH_OD\sem4\Vs\src\BM\obj\Release\net8.0\ref\BM.dll
