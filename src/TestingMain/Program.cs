@@ -3,6 +3,7 @@ using System.IO;
 using LogicLibrary.Parser;
 using KMPSpace;
 using BMSpace;
+using LogicLibrary.Hamming;
 
 namespace TestMain
 {
@@ -44,6 +45,10 @@ namespace TestMain
             kmp.searchKMP();
             BM bm = new BM(bitmapParser.AsciiMap, banding);
             bm.searchBM();
+            var fullsample = new BitmapParserBuilder(inputFilePath);
+            fullsample.ParseMapAscii();
+            Hamming ham = new Hamming(bitmapParser.AsciiMap, fullsample.AsciiMap[1]);
+            ham.searchHamming();
 
 
             //BM bm2 = new BM(tesmap, tes);
