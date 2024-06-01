@@ -158,6 +158,16 @@ namespace LogicLibrary.Parser
                 }
             }
         }
+        public void clearNullChar()
+        {
+            foreach (var item in this._asciiMap)
+            {
+                if (item.Value.AsciiString.Contains('\0'))
+                {
+                    item.Value.AsciiString = item.Value.AsciiString.Replace('\0', '\x00');
+                }
+            }
+        }
 
         private void ProcessSingleFile(string filePath, int fileId = 1)
         {

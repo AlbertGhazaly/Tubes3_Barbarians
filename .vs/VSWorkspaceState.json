@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\LogicLibrary"
   ],
-  "SelectedNode": "\\Barbarians.sln",
+  "SelectedNode": "\\src\\LogicLibrary\\LogicLibrary.csproj",
   "PreviewInSolutionExplorer": false
 }

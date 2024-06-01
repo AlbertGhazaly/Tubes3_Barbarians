@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KMP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef34674aa7928ee88a6eacfa726e29dfc6293dcc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52f1354c04c1670914140299ab2264674c363ec3")]
 [assembly: System.Reflection.AssemblyProductAttribute("KMP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KMP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
