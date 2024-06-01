@@ -1,0 +1,13 @@
+C:\Users\alber\OneDrive - Institut Teknologi Bandung\Documents\Code\CSharp\Tubes3_Barbarians\src\Barbarians\bin\Debug\Barbarians.exe.config
+C:\Users\alber\OneDrive - Institut Teknologi Bandung\Documents\Code\CSharp\Tubes3_Barbarians\src\Barbarians\bin\Debug\Barbarians.xml
+C:\Users\alber\OneDrive - Institut Teknologi Bandung\Documents\Code\CSharp\Tubes3_Barbarians\src\Barbarians\bin\Debug\Barbarians.exe
+C:\Users\alber\OneDrive - Institut Teknologi Bandung\Documents\Code\CSharp\Tubes3_Barbarians\src\Barbarians\bin\Debug\Barbarians.pdb
+C:\Users\alber\OneDrive - Institut Teknologi Bandung\Documents\Code\CSharp\Tubes3_Barbarians\src\Barbarians\obj\Debug\Barbarians.csproj.AssemblyReference.cache
+C:\Users\alber\OneDrive - Institut Teknologi Bandung\Documents\Code\CSharp\Tubes3_Barbarians\src\Barbarians\obj\Debug\Barbarians.BM.resources
+C:\Users\alber\OneDrive - Institut Teknologi Bandung\Documents\Code\CSharp\Tubes3_Barbarians\src\Barbarians\obj\Debug\Barbarians.Form1.resources
+C:\Users\alber\OneDrive - Institut Teknologi Bandung\Documents\Code\CSharp\Tubes3_Barbarians\src\Barbarians\obj\Debug\Barbarians.KMB.resources
+C:\Users\alber\OneDrive - Institut Teknologi Bandung\Documents\Code\CSharp\Tubes3_Barbarians\src\Barbarians\obj\Debug\Barbarians.Resources.resources
+C:\Users\alber\OneDrive - Institut Teknologi Bandung\Documents\Code\CSharp\Tubes3_Barbarians\src\Barbarians\obj\Debug\Barbarians.csproj.GenerateResource.cache
+C:\Users\alber\OneDrive - Institut Teknologi Bandung\Documents\Code\CSharp\Tubes3_Barbarians\src\Barbarians\obj\Debug\Barbarians.csproj.CoreCompileInputs.cache
+C:\Users\alber\OneDrive - Institut Teknologi Bandung\Documents\Code\CSharp\Tubes3_Barbarians\src\Barbarians\obj\Debug\Barbarians.exe
+C:\Users\alber\OneDrive - Institut Teknologi Bandung\Documents\Code\CSharp\Tubes3_Barbarians\src\Barbarians\obj\Debug\Barbarians.pdb
