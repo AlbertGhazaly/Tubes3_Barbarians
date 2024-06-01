@@ -3,6 +3,7 @@ using LogicLibrary.Parser;
 using MySql.Data.MySqlClient;
 using KMPSpace;
 using BMSpace;
+using LogicLibrary.Hamming;
 
 namespace SqlDataAccessApp
 {
@@ -16,7 +17,7 @@ namespace SqlDataAccessApp
             string rootDirectory = Directory.GetCurrentDirectory();
             string inputDirectoryPath = Path.Combine(rootDirectory, "Input");
        
-            string inputFilePath = Path.Combine(inputDirectoryPath, "227__M_Left_thumb_finger.BMP");
+            string inputFilePath = Path.Combine(inputDirectoryPath, "475__M_Right_middle_finger_CR.BMP");
             BitmapParserBuilder sample = new BitmapParserBuilder(inputFilePath, 32, 1);
             sample.ParseMapAscii();
             FingerString fn = sample.AsciiMap[1];
@@ -63,10 +64,27 @@ namespace SqlDataAccessApp
                 Console.WriteLine($"An error occurred: {ex.Message}");
             }
 
-            KMP kmp = new KMP(fingerStringMap,fn);
+            KMP kmp = new KMP(fingerStringMap, fn);
             kmp.searchKMP();
             BM bm = new BM(fingerStringMap, fn);
             bm.searchBM();
+            Console.WriteLine(fingerStringMap.Count);
+            if(!(kmp.IsFound && bm.IsFound))
+            {
+                BitmapParserBuilder fullsample = new BitmapParserBuilder(inputFilePath);
+                fullsample.ParseMapAscii();
+                Hamming ham = new Hamming(fingerStringMap, fullsample.AsciiMap[1],70);
+                ham.searchHamming();
+                ham.writeResult();  
+            }
+            
+            //Hamming ham = new Hamming(fingerStringMap, fingerStringMap[i], 75);
+            //ham.searchHamming();
+            //ham.writeResult();
+
+            
+           
+            
 
 
 

@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using LogicLibrary.Parser;
 
 namespace LogicLibrary.Hamming
@@ -11,44 +8,67 @@ namespace LogicLibrary.Hamming
     {
         private Dictionary<int, FingerString> fingermap;
         private FingerString inputF;
-        public Hamming(Dictionary<int,FingerString> fm,FingerString f)
+        private List<Result> goodResults;
+        private int tuningPersen;
+
+        public Hamming(Dictionary<int, FingerString> fm, FingerString f,int tuningpersen)
         {
             this.fingermap = fm;
             this.inputF = f;
-
+            this.goodResults = new List<Result>();
+            this.tuningPersen = tuningpersen;
         }
+
         public void searchHamming()
         {
-            foreach(var entry in fingermap)
+            foreach (var entry in fingermap)
             {
-                if(entry.Value.AsciiString.Length == inputF.AsciiString.Length)
+                if (entry.Value.AsciiString.Length == inputF.AsciiString.Length)
                 {
-                    Console.WriteLine($"Banding {entry.Value.FileName} dengan {inputF.FileName} : ");
                     int totlength = entry.Value.AsciiString.Length;
                     int different = 0;
 
-                    for(int i = 0; i < totlength; i++)
+                    for (int i = 0; i < totlength; i++)
                     {
                         if (entry.Value.AsciiString[i] == inputF.AsciiString[i])
                         {
                             different++;
                         }
-
                     }
-                    double persen = ((double)different/totlength) * 100;
-                    Console.WriteLine($"Total perbedaan :  {persen:F2} %");
 
+                    double percent = ((double)different / totlength) * 100;
+                    if (percent > this.tuningPersen)
+                    {
+                        goodResults.Add(new Result(entry.Value, percent));
+                    }
                 }
                 else
                 {
-                    Console.WriteLine($"Terdapat perbedaan panjang, tidak bisa hamming distance file {entry.Value.FileName} dengan {inputF.FileName}");
-
+                    Console.WriteLine($"Length difference, cannot calculate Hamming distance between {entry.Value.FileName} and {inputF.FileName}");
                 }
-
             }
-
         }
 
+        public void writeResult()
+        {
+            Console.WriteLine("===RESULTS ABOVE THRESHOLD===");
+            foreach (var result in goodResults)
+            {
+                Console.WriteLine($"FileName: {result.FingerString.FileName}, Percentage: {result.Percentage}%");
+            }
+        }
 
+        // Inner class to store the result
+        private class Result
+        {
+            public FingerString FingerString { get; }
+            public double Percentage { get; }
+
+            public Result(FingerString fingerString, double percentage)
+            {
+                this.FingerString = fingerString;
+                this.Percentage = percentage;
+            }
+        }
     }
 }

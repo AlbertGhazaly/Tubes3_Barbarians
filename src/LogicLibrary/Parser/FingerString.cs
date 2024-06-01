@@ -11,6 +11,7 @@ namespace LogicLibrary.Parser
         public string FileName { get; set; }
         public string AsciiString { get; set; }
 
+    
         public FingerString(string filename) { 
             FileName = filename;    
             AsciiString = filename;

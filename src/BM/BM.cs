@@ -31,6 +31,11 @@ namespace BMSpace
             get { return inputF; }
             set { inputF = value; }
         }
+        public bool IsFound
+        {
+            get { return isFound; }
+            set { isFound = value; }
+        }
         public void printHasil()
         {
             Console.WriteLine("=============BM==================");

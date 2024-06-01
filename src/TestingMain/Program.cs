@@ -47,7 +47,7 @@ namespace TestMain
             bm.searchBM();
             var fullsample = new BitmapParserBuilder(inputFilePath);
             fullsample.ParseMapAscii();
-            Hamming ham = new Hamming(bitmapParser.AsciiMap, fullsample.AsciiMap[1]);
+            Hamming ham = new Hamming(bitmapParser.AsciiMap, fullsample.AsciiMap[1],50);
             ham.searchHamming();
 
 

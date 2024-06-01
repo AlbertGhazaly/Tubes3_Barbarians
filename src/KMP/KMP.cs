@@ -33,6 +33,11 @@ namespace KMPSpace
             get { return resultmatch; }
             set { resultmatch = value; }
         }
+        public bool IsFound
+        {
+            get { return isFound; }
+            set { isFound = value; }
+        }
 
         public KMP(Dictionary<int, FingerString> fm, FingerString inputF) { 
             this.fingermap = fm;
