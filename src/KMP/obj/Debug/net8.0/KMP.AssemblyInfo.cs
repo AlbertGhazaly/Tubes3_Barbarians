@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KMP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef34674aa7928ee88a6eacfa726e29dfc6293dcc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+edf439f2825f7129f7a0e56a37a64317d3293eb7")]
 [assembly: System.Reflection.AssemblyProductAttribute("KMP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KMP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
