@@ -25,8 +25,6 @@ namespace LogicLibrary.Parser
             Console.WriteLine($" Filename : {FileName} ");
             Console.WriteLine($" ASCII : {AsciiString} ");
             Console.WriteLine($"Banyaknya Char : {AsciiString.Length}");
-
-
         }
     }
 }
