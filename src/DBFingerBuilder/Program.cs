@@ -17,7 +17,9 @@ namespace DBFingerBuilder
 
             BitmapParserBuilder bin = new BitmapParserBuilder(sampleDirectoryPath);
             bin.ParseMapAscii();
-            List<string> lines = new List<string>(File.ReadAllLines(Path.Combine(namaDirectoryPath,"nama.txt")));
+            List<string> lines = new List<string>(File.ReadAllLines(Path.Combine(namaDirectoryPath, "nama2.txt")));
+            List<string> linesOld = new List<string>(File.ReadAllLines(Path.Combine(namaDirectoryPath, "nama.txt")));
+
             Dictionary<int, FingerString> mapFingerString = bin.AsciiMap;
 
             string connectionString = "server=localhost;database=tubes3_stima24;user=root;password=26032006;";
@@ -26,19 +28,46 @@ namespace DBFingerBuilder
             {
                 connection.Open();
                 Console.WriteLine("Database connection successful!");
-
                 using (MySqlCommand cmd = connection.CreateCommand())
                 {
-                    cmd.CommandText = "INSERT INTO sidik_jari (nama, berkas_citra) VALUES (@nama, @berkascitra)";
-                    for (int i = 0; i < lines.Count && i < mapFingerString.Count; i++)
+                    for (int i = 0; i < lines.Count; i++)
                     {
-                        string nama = lines[i];
-                        for (int j = 0; j < 10; j++)
-                        {
-                            FingerString fingerString = mapFingerString[i*10 + (j+1)];
-                            string berkascitra = fingerString.AsciiString;
+                        string newName = lines[i];
+                        string oldName = linesOld[i];
+                        cmd.CommandText = "UPDATE biodata SET nama = @newName WHERE nama = @oldName";
+                        cmd.Parameters.Clear();
+                        cmd.Parameters.AddWithValue("@newName", newName);
+                        cmd.Parameters.AddWithValue("@oldName", oldName); // replace with the old name you want to update
 
-                            cmd.Parameters.Clear();
+                        try
+                        {
+                            int rowsAffected = cmd.ExecuteNonQuery();
+                            Console.WriteLine($"Updated {rowsAffected} rows for {newName}");
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine($"Error updating {newName}: {ex.Message}");
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+
+    
+/*    cmd.CommandText = "INSERT INTO sidik_jari (nama, berkascitra) VALUES (@nama, @berkascitra)";
+                    for (int i = 0; i<lines.Count && i<mapFingerString.Count; i++)
+                    {
+                        string nama = linesOld[i];
+                        for (int j = 0; j< 10; j++)
+                        {
+                            FingerString fingerString = mapFingerString[i * 10 + (j + 1)];
+    string berkascitra = fingerString.AsciiString;
+
+    cmd.Parameters.Clear();
                             cmd.Parameters.AddWithValue("@nama", nama);
                             cmd.Parameters.AddWithValue("@berkascitra", berkascitra);
 
@@ -52,10 +81,6 @@ namespace DBFingerBuilder
                                 Console.WriteLine($"Error inserting {nama}: {ex.Message}");
                             }
                         }
-                        
+
                     }
-                }
-            }
-        }
-    }
-}
+                }*/
