@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\DBFingerBuilder\\DBFingerBuilder.csproj": {}
+    "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3\\Tubes3_Barbarians\\src\\DBFingerBuilder\\DBFingerBuilder.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\DBFingerBuilder\\DBFingerBuilder.csproj": {
+    "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3\\Tubes3_Barbarians\\src\\DBFingerBuilder\\DBFingerBuilder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\DBFingerBuilder\\DBFingerBuilder.csproj",
+        "projectUniqueName": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3\\Tubes3_Barbarians\\src\\DBFingerBuilder\\DBFingerBuilder.csproj",
         "projectName": "DBFingerBuilder",
-        "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\DBFingerBuilder\\DBFingerBuilder.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\DBFingerBuilder\\obj\\",
+        "projectPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3\\Tubes3_Barbarians\\src\\DBFingerBuilder\\DBFingerBuilder.csproj",
+        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+        "outputPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3\\Tubes3_Barbarians\\src\\DBFingerBuilder\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\LogicLibrary.csproj": {
-                "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\LogicLibrary.csproj"
+              "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj": {
+                "projectPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj"
               }
             }
           }
@@ -70,21 +70,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\LogicLibrary.csproj": {
+    "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\LogicLibrary.csproj",
+        "projectUniqueName": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj",
         "projectName": "LogicLibrary",
-        "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\LogicLibrary.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\obj\\",
+        "projectPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj",
+        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+        "outputPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3\\Tubes3_Barbarians\\src\\LogicLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -136,7 +136,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

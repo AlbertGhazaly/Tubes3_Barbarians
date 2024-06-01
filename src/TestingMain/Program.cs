@@ -4,13 +4,42 @@ using LogicLibrary.Parser;
 using KMPSpace;
 using BMSpace;
 using LogicLibrary.Hamming;
+using LogicLibrary.AlayMatcher;
 
 namespace TestMain
 {
     class Program
     {
+        static List<string> ReadFileIntoList(string filename)
+        {
+            try
+            {
+                // Read all lines from the file and return as a list of strings
+                return new List<string>(File.ReadAllLines(filename));
+            }
+            catch (FileNotFoundException)
+            {
+                Console.WriteLine($"File {filename} not found.");
+                return new List<string>();
+            }
+            catch (IOException ex)
+            {
+                Console.WriteLine($"Error reading file {filename}: {ex.Message}");
+                return new List<string>();
+            }
+        }
         static void Main(string[] args)
         {
+            List<string> namaAsli = ReadFileIntoList("nama.txt");
+            List<string> namaAlay = ReadFileIntoList("output.txt");
+            int cnt = 0;
+            for (int i =0; i<namaAsli.Count; i++){
+                // AlayMatch(namaAsli[i], namaAlay[i]);
+                if(AlayMatch(namaAsli[i], namaAlay[i])){
+                    cnt++;
+                }
+            }
+            Console.WriteLine($"Jumlah cocok: {cnt}");
             string rootDirectory = Directory.GetCurrentDirectory();
             Console.WriteLine(rootDirectory);
             string sampleDirectoryPath = Path.Combine(rootDirectory, "Sample");

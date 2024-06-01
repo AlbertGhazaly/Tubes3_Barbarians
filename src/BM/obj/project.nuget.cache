@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "gB41rpcMGKyxJtGMwzckYSWS3cf3/LxJW24dpx8WWdqXH3Na/pnRuafs4AIXezVbl2iAmWthuybtpjXjLFQSQw==",
+  "dgSpecHash": "SyszsqOHbxVaVO8+6vWvZcd7lPvJbbN2XY/vRUT8SijJi0OgUVUC/eqNIoEmUI54FNmuI6fO+hg3cEAuoGhBzw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\BM\\BM.csproj",
+  "projectFilePath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3\\Tubes3_Barbarians\\src\\BM\\BM.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\User\\.nuget\\packages\\sixlabors.imagesharp\\3.1.4\\sixlabors.imagesharp.3.1.4.nupkg.sha512"
+    "C:\\Users\\Owner\\.nuget\\packages\\sixlabors.imagesharp\\3.1.4\\sixlabors.imagesharp.3.1.4.nupkg.sha512"
   ],
   "logs": []
 }

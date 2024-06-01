@@ -1915,19 +1915,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Owner\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingDB\\TestingDB.csproj",
+      "projectUniqueName": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3\\Tubes3_Barbarians\\src\\TestingDB\\TestingDB.csproj",
       "projectName": "TestingDB",
-      "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingDB\\TestingDB.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingDB\\obj\\",
+      "projectPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3\\Tubes3_Barbarians\\src\\TestingDB\\TestingDB.csproj",
+      "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+      "outputPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3\\Tubes3_Barbarians\\src\\TestingDB\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1941,20 +1941,20 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\BM\\BM.csproj": {
-              "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\BM\\BM.csproj"
+            "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3\\Tubes3_Barbarians\\src\\BM\\BM.csproj": {
+              "projectPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3\\Tubes3_Barbarians\\src\\BM\\BM.csproj"
             },
-            "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\DBFingerBuilder\\DBFingerBuilder.csproj": {
-              "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\DBFingerBuilder\\DBFingerBuilder.csproj"
+            "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3\\Tubes3_Barbarians\\src\\DBFingerBuilder\\DBFingerBuilder.csproj": {
+              "projectPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3\\Tubes3_Barbarians\\src\\DBFingerBuilder\\DBFingerBuilder.csproj"
             },
-            "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\KMP\\KMP.csproj": {
-              "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\KMP\\KMP.csproj"
+            "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3\\Tubes3_Barbarians\\src\\KMP\\KMP.csproj": {
+              "projectPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3\\Tubes3_Barbarians\\src\\KMP\\KMP.csproj"
             },
-            "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\LogicLibrary.csproj": {
-              "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\LogicLibrary.csproj"
+            "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj": {
+              "projectPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj"
             },
-            "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\TestingMain.csproj": {
-              "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\TestingMain.csproj"
+            "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3\\Tubes3_Barbarians\\src\\TestingMain\\TestingMain.csproj": {
+              "projectPath": "D:\\KULIAH\\SEM 4\\STIMA\\Tubes3\\Tubes3_Barbarians\\src\\TestingMain\\TestingMain.csproj"
             }
           }
         }
@@ -1989,7 +1989,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
