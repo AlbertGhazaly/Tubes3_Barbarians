@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KMP", "..\KMP\KMP.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BM", "..\BM\BM.csproj", "{F09D14AE-570C-47C4-9C10-F8D408CB587B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBFingerBuilder", "..\DBFingerBuilder\DBFingerBuilder.csproj", "{98C06337-26A1-4B4B-9B23-02007CEE67E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F09D14AE-570C-47C4-9C10-F8D408CB587B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F09D14AE-570C-47C4-9C10-F8D408CB587B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F09D14AE-570C-47C4-9C10-F8D408CB587B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98C06337-26A1-4B4B-9B23-02007CEE67E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98C06337-26A1-4B4B-9B23-02007CEE67E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98C06337-26A1-4B4B-9B23-02007CEE67E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98C06337-26A1-4B4B-9B23-02007CEE67E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
