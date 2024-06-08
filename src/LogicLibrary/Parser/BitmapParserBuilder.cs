@@ -111,6 +111,11 @@ namespace LogicLibrary.Parser
             set { _asciiMap = value; }
         }
 
+
+
+        public FingerString getFirstFingerString() {
+            return this.AsciiMap[1];
+            }
         public void PrintBinaryAll()
         {
             Console.WriteLine(this._directoryPath);

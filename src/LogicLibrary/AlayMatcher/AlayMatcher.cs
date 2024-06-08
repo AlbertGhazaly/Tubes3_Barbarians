@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 
 namespace LogicLibrary.AlayMatcher
 {
-    class AlayMatcher
+    public class AlayMatcher
     {
         public static bool AlayMatch(string normal, string alay)
         {
@@ -41,7 +41,7 @@ namespace LogicLibrary.AlayMatcher
                     pattern+=$"({c}|{(char.IsUpper(c) ? char.ToLower(c) : char.ToUpper(c))})";
                 }
             }
-            Console.WriteLine($"Pattern : {pattern}");
+            //Console.WriteLine($"Pattern : {pattern}");
             
             Regex regex = new Regex(pattern);
             Match match = regex.Match(alay);
@@ -52,7 +52,7 @@ namespace LogicLibrary.AlayMatcher
             }
             else
             {
-                Console.WriteLine("No match found.");
+                //Console.WriteLine("No match found.");
                 return false;
             }
 

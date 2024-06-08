@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using LogicLibrary.Parser;
-
+using System.Linq; 
 namespace LogicLibrary.Hamming
 {
     public class Hamming
@@ -47,6 +47,8 @@ namespace LogicLibrary.Hamming
                     Console.WriteLine($"Length difference, cannot calculate Hamming distance between {entry.Value.FileName} and {inputF.FileName}");
                 }
             }
+            //sort
+            goodResults.Sort((x, y) => y.Percentage.CompareTo(x.Percentage));
         }
 
         public void writeResult()
@@ -56,6 +58,10 @@ namespace LogicLibrary.Hamming
             {
                 Console.WriteLine($"FileName: {result.FingerString.FileName}, Percentage: {result.Percentage}%");
             }
+        }
+        public FingerString getBestResult()
+        {
+            return goodResults.First().FingerString;
         }
 
         // Inner class to store the result

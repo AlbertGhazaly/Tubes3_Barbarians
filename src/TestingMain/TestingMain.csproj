@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\KMP\KMP.csproj" />
     <ProjectReference Include="..\BM\BM.csproj" />
     <ProjectReference Include="..\LogicLibrary\LogicLibrary.csproj" />

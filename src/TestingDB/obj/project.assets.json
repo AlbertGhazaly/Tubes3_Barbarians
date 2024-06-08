@@ -611,7 +611,8 @@
         "dependencies": {
           "BM": "1.0.0",
           "KMP": "1.0.0",
-          "LogicLibrary": "1.0.0"
+          "LogicLibrary": "1.0.0",
+          "MySql.Data": "8.4.0"
         },
         "compile": {
           "bin/placeholder/TestingMain.dll": {}
