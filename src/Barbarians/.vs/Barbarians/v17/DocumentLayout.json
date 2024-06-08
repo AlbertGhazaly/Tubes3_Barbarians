@@ -3,7 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\Barbarians\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AA6B41AC-A537-4B35-B085-4529B558EFC8}|..\\TestingMain\\TestingMain.csproj|c:\\users\\user\\onedrive - institut teknologi bandung\\!kuliah_od\\sem4\\vs\\src\\testingmain\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA6B41AC-A537-4B35-B085-4529B558EFC8}|..\\TestingMain\\TestingMain.csproj|c:\\users\\user\\onedrive - institut teknologi bandung\\!kuliah_od\\sem4\\vs\\src\\testingmain\\nama.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA6B41AC-A537-4B35-B085-4529B558EFC8}|..\\TestingMain\\TestingMain.csproj|c:\\users\\user\\onedrive - institut teknologi bandung\\!kuliah_od\\sem4\\vs\\src\\testingmain\\output.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4AAF6D03-5C0F-4BF8-B530-01351F232966}|..\\TestingDB\\TestingDB.csproj|c:\\users\\user\\onedrive - institut teknologi bandung\\!kuliah_od\\sem4\\vs\\src\\testingdb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C06337-26A1-4B4B-9B23-02007CEE67E5}|..\\DBFingerBuilder\\DBFingerBuilder.csproj|c:\\users\\user\\onedrive - institut teknologi bandung\\!kuliah_od\\sem4\\vs\\src\\dbfingerbuilder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E20B64B-A631-4583-8646-8580BE4EFCA3}|..\\LogicLibrary\\LogicLibrary.csproj|c:\\users\\user\\onedrive - institut teknologi bandung\\!kuliah_od\\sem4\\vs\\src\\logiclibrary\\parser\\bitmapparserbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E20B64B-A631-4583-8646-8580BE4EFCA3}|..\\LogicLibrary\\LogicLibrary.csproj|c:\\users\\user\\onedrive - institut teknologi bandung\\!kuliah_od\\sem4\\vs\\src\\logiclibrary\\parser\\fingerstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E20B64B-A631-4583-8646-8580BE4EFCA3}|..\\LogicLibrary\\LogicLibrary.csproj|c:\\users\\user\\onedrive - institut teknologi bandung\\!kuliah_od\\sem4\\vs\\src\\logiclibrary\\alaymatcher\\alaymatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D66542AA-ED05-4CB3-9304-F57DC33627F0}|..\\KMP\\KMP.csproj|c:\\users\\user\\onedrive - institut teknologi bandung\\!kuliah_od\\sem4\\vs\\src\\kmp\\kmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -12,23 +33,11 @@
       "AbsoluteMoniker": "D:0:0:{F09D14AE-570C-47C4-9C10-F8D408CB587B}|..\\BM\\BM.csproj|c:\\users\\user\\onedrive - institut teknologi bandung\\!kuliah_od\\sem4\\vs\\src\\bm\\bm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B455467-50EE-0940-2918-774134CB4470}|Barbarians.csproj|c:\\users\\user\\onedrive - institut teknologi bandung\\!kuliah_od\\sem4\\vs\\src\\barbarians\\kmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3B455467-50EE-0940-2918-774134CB4470}|Barbarians.csproj|C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\Barbarians\\kmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3B455467-50EE-0940-2918-774134CB4470}|Barbarians.csproj|solutionrelative:kmb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA6B41AC-A537-4B35-B085-4529B558EFC8}|..\\TestingMain\\TestingMain.csproj|c:\\users\\user\\onedrive - institut teknologi bandung\\!kuliah_od\\sem4\\vs\\src\\testingmain\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8E20B64B-A631-4583-8646-8580BE4EFCA3}|..\\LogicLibrary\\LogicLibrary.csproj|c:\\users\\user\\onedrive - institut teknologi bandung\\!kuliah_od\\sem4\\vs\\src\\logiclibrary\\hamming\\hamming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E20B64B-A631-4583-8646-8580BE4EFCA3}|..\\LogicLibrary\\LogicLibrary.csproj|c:\\users\\user\\onedrive - institut teknologi bandung\\!kuliah_od\\sem4\\vs\\src\\logiclibrary\\parser\\fingerstring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E20B64B-A631-4583-8646-8580BE4EFCA3}|..\\LogicLibrary\\LogicLibrary.csproj|c:\\users\\user\\onedrive - institut teknologi bandung\\!kuliah_od\\sem4\\vs\\src\\logiclibrary\\parser\\bitmapparserbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98C06337-26A1-4B4B-9B23-02007CEE67E5}|..\\DBFingerBuilder\\DBFingerBuilder.csproj|c:\\users\\user\\onedrive - institut teknologi bandung\\!kuliah_od\\sem4\\vs\\src\\dbfingerbuilder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\DBFingerBuilder\\bin\\Debug\\net8.0\\name\\nama.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
@@ -181,44 +190,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "KMB.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\Barbarians\\KMB.cs",
-              "RelativeDocumentMoniker": "KMB.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\Barbarians\\KMB.cs [Design]",
-              "RelativeToolTip": "KMB.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T15:31:30.752Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingDB\\Program.cs",
               "RelativeDocumentMoniker": "..\\TestingDB\\Program.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingDB\\Program.cs",
               "RelativeToolTip": "..\\TestingDB\\Program.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwFMAAAAAAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAAgwEAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T13:59:16.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-01T13:59:16.908Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\Program.cs",
               "RelativeDocumentMoniker": "..\\TestingMain\\Program.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\Program.cs",
               "RelativeToolTip": "..\\TestingMain\\Program.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAgwDEAAABWAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAArwC0AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T07:07:51.448Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "BitmapParserBuilder.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\Parser\\BitmapParserBuilder.cs",
               "RelativeDocumentMoniker": "..\\LogicLibrary\\Parser\\BitmapParserBuilder.cs",
@@ -226,8 +222,19 @@
               "RelativeToolTip": "..\\LogicLibrary\\Parser\\BitmapParserBuilder.cs",
               "ViewState": "AQIAAA0BAAAAAAAAAAAqwKAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:05:17.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T07:05:17.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\DBFingerBuilder\\Program.cs",
+              "RelativeDocumentMoniker": "..\\DBFingerBuilder\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\DBFingerBuilder\\Program.cs",
+              "RelativeToolTip": "..\\DBFingerBuilder\\Program.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAADwv1QAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T10:32:50.24Z"
             },
             {
               "$type": "Document",
@@ -239,12 +246,58 @@
               "RelativeToolTip": "..\\LogicLibrary\\Parser\\FingerString.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAowA0AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:59:32.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T07:59:32.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "output.txt",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\output.txt",
+              "RelativeDocumentMoniker": "..\\TestingMain\\output.txt",
+              "ToolTip": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\output.txt",
+              "RelativeToolTip": "..\\TestingMain\\output.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-01T16:18:57.232Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "nama.txt",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\nama.txt",
+              "RelativeDocumentMoniker": "..\\TestingMain\\nama.txt",
+              "ToolTip": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\nama.txt",
+              "RelativeToolTip": "..\\TestingMain\\nama.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-01T16:18:56.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "KMB.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\Barbarians\\KMB.cs",
+              "RelativeDocumentMoniker": "KMB.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\Barbarians\\KMB.cs [Design]",
+              "RelativeToolTip": "KMB.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T15:31:30.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AlayMatcher.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\AlayMatcher\\AlayMatcher.cs",
+              "RelativeDocumentMoniker": "..\\LogicLibrary\\AlayMatcher\\AlayMatcher.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\AlayMatcher\\AlayMatcher.cs",
+              "RelativeToolTip": "..\\LogicLibrary\\AlayMatcher\\AlayMatcher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:18:25.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "KMP.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\KMP\\KMP.cs",
               "RelativeDocumentMoniker": "..\\KMP\\KMP.cs",
@@ -252,12 +305,11 @@
               "RelativeToolTip": "..\\KMP\\KMP.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T08:46:02.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T08:46:02.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "BM.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\BM\\BM.cs",
               "RelativeDocumentMoniker": "..\\BM\\BM.cs",
@@ -265,12 +317,11 @@
               "RelativeToolTip": "..\\BM\\BM.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAkwCEAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T06:35:49.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-31T06:35:49.362Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "KMP.csproj",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\KMP\\KMP.csproj",
               "RelativeDocumentMoniker": "..\\KMP\\KMP.csproj",
@@ -282,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Hamming.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\Hamming\\Hamming.cs",
               "RelativeDocumentMoniker": "..\\LogicLibrary\\Hamming\\Hamming.cs",
@@ -290,24 +341,11 @@
               "RelativeToolTip": "..\\LogicLibrary\\Hamming\\Hamming.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAqwBIAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T08:10:06.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-31T08:10:06.456Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\DBFingerBuilder\\Program.cs",
-              "RelativeDocumentMoniker": "..\\DBFingerBuilder\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\DBFingerBuilder\\Program.cs",
-              "RelativeToolTip": "..\\DBFingerBuilder\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAD8AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T10:32:50.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "nama.txt",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\DBFingerBuilder\\bin\\Debug\\net8.0\\name\\nama.txt",
               "RelativeDocumentMoniker": "..\\DBFingerBuilder\\bin\\Debug\\net8.0\\name\\nama.txt",
@@ -319,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "DBFingerBuilder.csproj",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\DBFingerBuilder\\DBFingerBuilder.csproj",
               "RelativeDocumentMoniker": "..\\DBFingerBuilder\\DBFingerBuilder.csproj",
@@ -331,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\Barbarians\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -342,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "TestingMain.csproj",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\TestingMain.csproj",
               "RelativeDocumentMoniker": "..\\TestingMain\\TestingMain.csproj",
@@ -354,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\Barbarians\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -366,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\Barbarians\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
@@ -378,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "TestingMain.csproj",
               "DocumentMoniker": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\TestingMain\\TestingMain.csproj",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\TestingMain\\TestingMain.csproj",
@@ -389,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "KMB.vb [Design]",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\Barbarians\\KMB.vb",
               "RelativeDocumentMoniker": "KMB.vb",
@@ -401,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "3__M_Left_little_finger_Zcut.BMP",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\Sample\\3__M_Left_little_finger_Zcut.BMP",
               "RelativeDocumentMoniker": "..\\TestingMain\\Sample\\3__M_Left_little_finger_Zcut.BMP",
@@ -412,7 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 50,
               "Title": "Form1.vb [Design]",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\Barbarians\\Form1.vb",
               "RelativeDocumentMoniker": "Form1.vb",
@@ -424,7 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\TestingMain\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\TestingMain\\Program.cs",
@@ -435,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "KMP.cs",
               "DocumentMoniker": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\KMP\\KMP.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\KMP\\KMP.cs",
@@ -446,7 +484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "BitmapParserBuilder.cs",
               "DocumentMoniker": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\LogicLibrary\\Parser\\BitmapParserBuilder.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\LogicLibrary\\Parser\\BitmapParserBuilder.cs",
@@ -457,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "LogicLibrary.csproj",
               "DocumentMoniker": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj",
@@ -468,7 +506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "Hamming.cs",
               "DocumentMoniker": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\LogicLibrary\\Hamming\\Hamming.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\LogicLibrary\\Hamming\\Hamming.cs",
@@ -479,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "BM.cs",
               "DocumentMoniker": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\BM\\BM.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\BM\\BM.cs",
@@ -490,7 +528,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "FingerString.cs",
               "DocumentMoniker": "C:\\Users\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\LogicLibrary\\Parser\\FingerString.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\lordhugo\\Source\\Repos\\Tubes3_Barbarians\\src\\LogicLibrary\\Parser\\FingerString.cs",
@@ -501,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "3__M_Right_index_finger_Obl.BMP",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\Sample\\3__M_Right_index_finger_Obl.BMP",
               "RelativeDocumentMoniker": "..\\TestingMain\\Sample\\3__M_Right_index_finger_Obl.BMP",
@@ -512,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "3__M_Right_thumb_finger_Zcut.BMP",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\Sample\\3__M_Right_thumb_finger_Zcut.BMP",
               "RelativeDocumentMoniker": "..\\TestingMain\\Sample\\3__M_Right_thumb_finger_Zcut.BMP",
@@ -523,7 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "3__M_Left_thumb_finger_Zcut.BMP",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\Sample\\3__M_Left_thumb_finger_Zcut.BMP",
               "RelativeDocumentMoniker": "..\\TestingMain\\Sample\\3__M_Left_thumb_finger_Zcut.BMP",
@@ -534,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "3__M_Right_little_finger_Obl.BMP",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\Sample\\3__M_Right_little_finger_Obl.BMP",
               "RelativeDocumentMoniker": "..\\TestingMain\\Sample\\3__M_Right_little_finger_Obl.BMP",
@@ -545,7 +583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "3__M_Right_ring_finger_Obl.BMP",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\Sample\\3__M_Right_ring_finger_Obl.BMP",
               "RelativeDocumentMoniker": "..\\TestingMain\\Sample\\3__M_Right_ring_finger_Obl.BMP",
@@ -556,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "3__M_Right_ring_finger_Zcut.BMP",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\Sample\\3__M_Right_ring_finger_Zcut.BMP",
               "RelativeDocumentMoniker": "..\\TestingMain\\Sample\\3__M_Right_ring_finger_Zcut.BMP",
@@ -567,7 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "3__M_Right_middle_finger_CR.BMP",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\Sample\\3__M_Right_middle_finger_CR.BMP",
               "RelativeDocumentMoniker": "..\\TestingMain\\Sample\\3__M_Right_middle_finger_CR.BMP",
@@ -578,7 +616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "3__M_Right_thumb_finger_Obl.BMP",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\Sample\\3__M_Right_thumb_finger_Obl.BMP",
               "RelativeDocumentMoniker": "..\\TestingMain\\Sample\\3__M_Right_thumb_finger_Obl.BMP",
@@ -589,7 +627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "2__F_Right_ring_finger_Zcut.BMP",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\Sample\\2__F_Right_ring_finger_Zcut.BMP",
               "RelativeDocumentMoniker": "..\\TestingMain\\Sample\\2__F_Right_ring_finger_Zcut.BMP",
@@ -600,7 +638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "2__F_Right_thumb_finger_Obl.BMP",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\Sample\\2__F_Right_thumb_finger_Obl.BMP",
               "RelativeDocumentMoniker": "..\\TestingMain\\Sample\\2__F_Right_thumb_finger_Obl.BMP",
@@ -611,7 +649,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "3__M_Left_index_finger_Obl.BMP",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\Sample\\3__M_Left_index_finger_Obl.BMP",
               "RelativeDocumentMoniker": "..\\TestingMain\\Sample\\3__M_Left_index_finger_Obl.BMP",
@@ -622,7 +660,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "3__M_Left_little_finger_Obl.BMP",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\Sample\\3__M_Left_little_finger_Obl.BMP",
               "RelativeDocumentMoniker": "..\\TestingMain\\Sample\\3__M_Left_little_finger_Obl.BMP",
@@ -633,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "3__M_Right_little_finger_CR.BMP",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\Sample\\3__M_Right_little_finger_CR.BMP",
               "RelativeDocumentMoniker": "..\\TestingMain\\Sample\\3__M_Right_little_finger_CR.BMP",
@@ -644,7 +682,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "3__M_Right_middle_finger_Zcut.BMP",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\Sample\\3__M_Right_middle_finger_Zcut.BMP",
               "RelativeDocumentMoniker": "..\\TestingMain\\Sample\\3__M_Right_middle_finger_Zcut.BMP",
@@ -655,7 +693,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "3__M_Left_thumb_finger_CR.BMP",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\Sample\\3__M_Left_thumb_finger_CR.BMP",
               "RelativeDocumentMoniker": "..\\TestingMain\\Sample\\3__M_Left_thumb_finger_CR.BMP",
@@ -666,7 +704,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "3__M_Left_ring_finger_Zcut.BMP",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\Sample\\3__M_Left_ring_finger_Zcut.BMP",
               "RelativeDocumentMoniker": "..\\TestingMain\\Sample\\3__M_Left_ring_finger_Zcut.BMP",
@@ -677,7 +715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "3__M_Right_index_finger_CR.BMP",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\Sample\\3__M_Right_index_finger_CR.BMP",
               "RelativeDocumentMoniker": "..\\TestingMain\\Sample\\3__M_Right_index_finger_CR.BMP",
@@ -688,7 +726,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 46,
               "Title": "3__M_Left_middle_finger_Obl.BMP",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\Sample\\3__M_Left_middle_finger_Obl.BMP",
               "RelativeDocumentMoniker": "..\\TestingMain\\Sample\\3__M_Left_middle_finger_Obl.BMP",
@@ -699,7 +737,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 47,
               "Title": "2__F_Right_ring_finger_Obl.BMP",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\Sample\\2__F_Right_ring_finger_Obl.BMP",
               "RelativeDocumentMoniker": "..\\TestingMain\\Sample\\2__F_Right_ring_finger_Obl.BMP",
@@ -710,7 +748,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 48,
               "Title": "3__M_Left_index_finger_CR.BMP",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\Sample\\3__M_Left_index_finger_CR.BMP",
               "RelativeDocumentMoniker": "..\\TestingMain\\Sample\\3__M_Left_index_finger_CR.BMP",
@@ -721,7 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 49,
               "Title": "c.BMP",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\Sample\\c.BMP",
               "RelativeDocumentMoniker": "..\\TestingMain\\Sample\\c.BMP",
@@ -732,7 +770,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 51,
               "Title": "Form1.vb",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\Barbarians\\Form1.vb",
               "RelativeDocumentMoniker": "Form1.vb",
@@ -744,7 +782,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 52,
               "Title": "BM.vb",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\Barbarians\\BM.vb",
               "RelativeDocumentMoniker": "BM.vb",
@@ -756,7 +794,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 53,
               "Title": "BM.vb",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\Barbarians\\BM.vb",
               "RelativeDocumentMoniker": "BM.vb",

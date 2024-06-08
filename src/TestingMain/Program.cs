@@ -30,16 +30,18 @@ namespace TestMain
         }
         static void Main(string[] args)
         {
-            List<string> namaAsli = ReadFileIntoList("nama.txt");
-            List<string> namaAlay = ReadFileIntoList("output.txt");
-            int cnt = 0;
-            for (int i =0; i<namaAsli.Count; i++){
-                // AlayMatch(namaAsli[i], namaAlay[i]);
-                if(AlayMatch(namaAsli[i], namaAlay[i])){
-                    cnt++;
-                }
-            }
-            Console.WriteLine($"Jumlah cocok: {cnt}");
+            //List<string> namaAsli = ReadFileIntoList("nama.txt");
+            //List<string> namaAlay = ReadFileIntoList("output.txt");
+            //int cnt = 0;
+            //for (int i =0; i<namaAsli.Count; i++){
+            //    // AlayMatch(namaAsli[i], namaAlay[i]);
+            //    if(AlayMatch(namaAsli[i], namaAlay[i])){
+            //        cnt++;
+            //    }
+            //}
+            //Console.WriteLine($"Jumlah cocok: {cnt}");
+
+
             string rootDirectory = Directory.GetCurrentDirectory();
             Console.WriteLine(rootDirectory);
             string sampleDirectoryPath = Path.Combine(rootDirectory, "Sample");
