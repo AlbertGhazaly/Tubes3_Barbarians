@@ -36,7 +36,7 @@ unik dan tidak dapat ditiru, sehingga cocok untuk digunakan sebagai identitas in
 ## Screenshots
 ![ss1](foto/foto1.JPG)
 
-![ss2](foto/foto2.JGP)
+![ss2](foto/foto2.JPG)
 ## Setup
 Clone Repository as Below
 ```
