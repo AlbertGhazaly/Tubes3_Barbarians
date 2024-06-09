@@ -146,11 +146,18 @@ namespace Barbarians
                                 fullsample.ParseMapAscii();
                                 Hamming.Hamming ham = new Hamming.Hamming(MainPage.bitmapParser.AsciiMap, fullsample.getFirstFingerString(), 70);
                                 ham.searchHamming();
-                                ham.writeResult();
-                                command.Parameters.AddWithValue("@berkascitra", ham.getBestResult().FileName + ".BMP");
-                                PictureBox2.Image = new System.Drawing.Bitmap(Path.Combine(sampleDirectory, (ham.getBestResult().FileName + ".BMP")));
-                                Label2.Text = $"Kemiripan: {ham.getBestPercent().ToString("F2")}%";
-                                label3.Text = $"Durasi: {stopwatch.ElapsedMilliseconds}ms";
+                                if (ham.isFound())
+                                {
+                                    ham.writeResult();
+                                    command.Parameters.AddWithValue("@berkascitra", ham.getBestResult().FileName + ".BMP");
+                                    PictureBox2.Image = new System.Drawing.Bitmap(Path.Combine(sampleDirectory, (ham.getBestResult().FileName + ".BMP")));
+                                    Label2.Text = $"Kemiripan: {ham.getBestPercent().ToString("F2")}%";
+                                    label3.Text = $"Durasi: {stopwatch.ElapsedMilliseconds}ms";
+                                }
+                                else
+                                {
+                                    MessageBox.Show("Tidak hasil yang memenuhi kriteria diatas 70%!");
+                                }
 
                             }
                             using (MySqlDataReader reader = command.ExecuteReader())
@@ -194,6 +201,8 @@ namespace Barbarians
                                         string pekerjaan = reader.GetString("pekerjaan");
                                         string kewarganegaraan = reader.GetString("kewarganegaraan");
                                         RichTextBox2.Text = $"HASIL\n" +
+                                            $"Nama: {namadapat} \n" +
+                                            $"Nama Alay: {nama} \n" +
                                             $"NIK: {NIK} \n" +
                                             $"Tempat Lahir: {tempatLahir}\n" +
                                             $"Tanggal Lahir: {tanggalLahir.ToShortDateString()} \n" +
@@ -214,15 +223,20 @@ namespace Barbarians
                         if (ex.Number == 0)
                         {
                             Console.WriteLine("Koneksi ditolak. Periksa kembali informasi koneksi Anda.");
+                            MessageBox.Show("Koneksi ditolak. Periksa kembali informasi koneksi Anda.");
+
                         }
                         else
                         {
                             Console.WriteLine($"Terjadi kesalahan MySQL: {ex.Message}");
+                            MessageBox.Show($"Terjadi kesalahan MySQL: {ex.Message}");
                         }
                     }
                     catch (Exception ex)
                     {
                         Console.WriteLine($"Terjadi kesalahan: {ex.Message}");
+                        MessageBox.Show($"Terjadi kesalahan: {ex.Message}");
+
                     }
                 }
             }

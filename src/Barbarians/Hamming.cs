@@ -62,6 +62,10 @@ namespace Barbarians.Hamming
                 Console.WriteLine($"FileName: {result.FingerString.FileName}, Percentage: {result.Percentage}%");
             }
         }
+        public bool isFound()
+        {
+            return goodResults.Count > 0;
+        }
         public FingerString getBestResult()
         {
             return goodResults.First().FingerString;

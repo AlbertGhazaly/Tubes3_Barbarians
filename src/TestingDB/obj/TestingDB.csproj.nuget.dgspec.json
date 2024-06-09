@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\TestingDB\\TestingDB.csproj": {}
+    "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingDB\\TestingDB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\BM\\BM.csproj": {
+    "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\BM\\BM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\BM\\BM.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\BM\\BM.csproj",
         "projectName": "BM",
-        "projectPath": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\BM\\BM.csproj",
-        "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\BM\\obj\\",
+        "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\BM\\BM.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\BM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj": {
-                "projectPath": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj"
+              "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\LogicLibrary.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\LogicLibrary.csproj"
               }
             }
           }
@@ -64,21 +64,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\DBFingerBuilder\\DBFingerBuilder.csproj": {
+    "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\DBFingerBuilder\\DBFingerBuilder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\DBFingerBuilder\\DBFingerBuilder.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\DBFingerBuilder\\DBFingerBuilder.csproj",
         "projectName": "DBFingerBuilder",
-        "projectPath": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\DBFingerBuilder\\DBFingerBuilder.csproj",
-        "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\DBFingerBuilder\\obj\\",
+        "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\DBFingerBuilder\\DBFingerBuilder.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\DBFingerBuilder\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,8 +92,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj": {
-                "projectPath": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj"
+              "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\LogicLibrary.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\LogicLibrary.csproj"
               }
             }
           }
@@ -134,21 +134,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\KMP\\KMP.csproj": {
+    "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\KMP\\KMP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\KMP\\KMP.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\KMP\\KMP.csproj",
         "projectName": "KMP",
-        "projectPath": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\KMP\\KMP.csproj",
-        "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\KMP\\obj\\",
+        "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\KMP\\KMP.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\KMP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -162,8 +162,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj": {
-                "projectPath": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj"
+              "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\LogicLibrary.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\LogicLibrary.csproj"
               }
             }
           }
@@ -198,21 +198,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj": {
+    "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\LogicLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\LogicLibrary.csproj",
         "projectName": "LogicLibrary",
-        "projectPath": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj",
-        "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\LogicLibrary\\obj\\",
+        "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\LogicLibrary.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -264,21 +264,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\TestingDB\\TestingDB.csproj": {
+    "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingDB\\TestingDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\TestingDB\\TestingDB.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingDB\\TestingDB.csproj",
         "projectName": "TestingDB",
-        "projectPath": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\TestingDB\\TestingDB.csproj",
-        "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\TestingDB\\obj\\",
+        "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingDB\\TestingDB.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingDB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -292,20 +292,20 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\BM\\BM.csproj": {
-                "projectPath": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\BM\\BM.csproj"
+              "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\BM\\BM.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\BM\\BM.csproj"
               },
-              "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\DBFingerBuilder\\DBFingerBuilder.csproj": {
-                "projectPath": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\DBFingerBuilder\\DBFingerBuilder.csproj"
+              "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\DBFingerBuilder\\DBFingerBuilder.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\DBFingerBuilder\\DBFingerBuilder.csproj"
               },
-              "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\KMP\\KMP.csproj": {
-                "projectPath": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\KMP\\KMP.csproj"
+              "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\KMP\\KMP.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\KMP\\KMP.csproj"
               },
-              "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj": {
-                "projectPath": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj"
+              "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\LogicLibrary.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\LogicLibrary.csproj"
               },
-              "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\TestingMain\\TestingMain.csproj": {
-                "projectPath": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\TestingMain\\TestingMain.csproj"
+              "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\TestingMain.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\TestingMain.csproj"
               }
             }
           }
@@ -340,21 +340,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\TestingMain\\TestingMain.csproj": {
+    "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\TestingMain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\TestingMain\\TestingMain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\TestingMain.csproj",
         "projectName": "TestingMain",
-        "projectPath": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\TestingMain\\TestingMain.csproj",
-        "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\TestingMain\\obj\\",
+        "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\TestingMain.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\TestingMain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -368,14 +368,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\BM\\BM.csproj": {
-                "projectPath": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\BM\\BM.csproj"
+              "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\BM\\BM.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\BM\\BM.csproj"
               },
-              "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\KMP\\KMP.csproj": {
-                "projectPath": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\KMP\\KMP.csproj"
+              "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\KMP\\KMP.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\KMP\\KMP.csproj"
               },
-              "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj": {
-                "projectPath": "C:\\Users\\alber\\OneDrive - Institut Teknologi Bandung\\Documents\\Code\\CSharp\\Tubes3_Barbarians\\src\\LogicLibrary\\LogicLibrary.csproj"
+              "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\LogicLibrary.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\LogicLibrary\\LogicLibrary.csproj"
               }
             }
           }
@@ -416,7 +416,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
