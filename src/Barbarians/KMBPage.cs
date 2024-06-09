@@ -3,10 +3,11 @@ using System.Windows.Forms;
 
 namespace Barbarians
 {
-    public partial class KMB
+    public partial class KMBPage
     {
-        public KMB()
+        public KMBPage()
         {
+
             InitializeComponent();
         }
         private void Button3_Click(object sender, EventArgs e)

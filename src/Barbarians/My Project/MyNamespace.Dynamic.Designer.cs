@@ -10,9 +10,9 @@ namespace Barbarians.My
         {
 
             [EditorBrowsable(EditorBrowsableState.Never)]
-            public BM m_BM;
+            public BMPage m_BM;
 
-            public BM BM
+            public BMPage BM
             {
                 [DebuggerHidden]
                 get
@@ -33,9 +33,9 @@ namespace Barbarians.My
 
 
             [EditorBrowsable(EditorBrowsableState.Never)]
-            public Form1 m_Form1;
+            public MainPage m_Form1;
 
-            public Form1 Form1
+            public MainPage Form1
             {
                 [DebuggerHidden]
                 get
@@ -56,9 +56,9 @@ namespace Barbarians.My
 
 
             [EditorBrowsable(EditorBrowsableState.Never)]
-            public KMB m_KMB;
+            public KMBPage m_KMB;
 
-            public KMB KMB
+            public KMBPage KMB
             {
                 [DebuggerHidden]
                 get

@@ -1,7 +1,5 @@
 ﻿
 using LogicLibrary.Parser;
-using System.Linq;
-using System;
 namespace BMSpace
 {
     public class BM
@@ -56,14 +54,15 @@ namespace BMSpace
         }
 
 
-        public BM(Dictionary<int, FingerString> fm, FingerString inputF) { 
+        public BM(Dictionary<int, FingerString> fm, FingerString inputF)
+        {
             this.fingermap = fm;
             this.inputF = inputF;
             this.LastOcc = BuildLastOccurence(inputF.AsciiString);
-            this.resultmatch = new List<FingerString>(); 
+            this.resultmatch = new List<FingerString>();
             this.isFound = false;
 
-        }    
+        }
         private int[] BuildLastOccurence(string source)
         {
             int[] table = new int[256]; // Assume ASCII character set
@@ -77,7 +76,8 @@ namespace BMSpace
         public void searchBM()
         {
             // int x =0;
-            foreach (var entry in fingermap) {
+            foreach (var entry in fingermap)
+            {
                 // Console.WriteLine(x);
                 // x++;
                 string source = inputF.AsciiString;
@@ -87,15 +87,17 @@ namespace BMSpace
                 //Console.WriteLine($" Source : {source} Target : {target}");
                 int m = source.Length;
                 int n = target.Length;
-                int i = m-1;
+                int i = m - 1;
 
-                if(i > n-1){
+                if (i > n - 1)
+                {
                     Console.WriteLine("source lebih panjang dari target!");
                     continue;
                 }
-                int j = m-1;
+                int j = m - 1;
                 // int a = 0;
-                do {
+                do
+                {
                     // Console.WriteLine($"Comparing: {source[j]} {target[i]}");
                     // if(a>2){
                     //   break;
@@ -111,18 +113,19 @@ namespace BMSpace
                             resultmatch.Add(entry.Value);
                             break;
                         }
-                        else 
+                        else
                         { // looking-glass technique
                             i--;
                             j--;
                         }
                     }
-                    else { // character jump technique
+                    else
+                    { // character jump technique
                         int lo = LastOcc[target[i]]; //last occ
-                        i = i + m - Math.Min(j, 1+lo);
+                        i = i + m - Math.Min(j, 1 + lo);
                         j = m - 1;
                     }
-                    } while (i <= n-1);
+                } while (i <= n - 1);
                 continue; // no matches
             }
             printHasil();

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DBFingerBuilder")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04cd913b900a011771cf540fe8779aedde5ef6c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+381f5f429f19dd30b59505288e536ab7d9187eb6")]
 [assembly: System.Reflection.AssemblyProductAttribute("DBFingerBuilder")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DBFingerBuilder")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
