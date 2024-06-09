@@ -34,9 +34,9 @@ unik dan tidak dapat ditiru, sehingga cocok untuk digunakan sebagai identitas in
 - Mysql Server (version 8.*.\*)
 - Mysql Connector/NET (version 8.4.0)
 ## Screenshots
-![SS1](./foto/foto1.jpg)
+![ss1](foto/foto1.JPG)
 
-![SS2](./foto/foto2.jpg)
+![ss2](foto/foto2.JGP)
 ## Setup
 Clone Repository as Below
 ```
