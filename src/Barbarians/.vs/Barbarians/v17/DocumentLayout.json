@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{3B455467-50EE-0940-2918-774134CB4470}|Barbarians.csproj|solutionrelative:bmpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B455467-50EE-0940-2918-774134CB4470}|Barbarians.csproj|c:\\users\\user\\onedrive - institut teknologi bandung\\!kuliah_od\\sem4\\vs\\src\\barbarians\\kmbpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B455467-50EE-0940-2918-774134CB4470}|Barbarians.csproj|C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\Barbarians\\kmbpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B455467-50EE-0940-2918-774134CB4470}|Barbarians.csproj|solutionrelative:kmbpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B455467-50EE-0940-2918-774134CB4470}|Barbarians.csproj|c:\\users\\user\\onedrive - institut teknologi bandung\\!kuliah_od\\sem4\\vs\\src\\barbarians\\kmbpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3B455467-50EE-0940-2918-774134CB4470}|Barbarians.csproj|C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\Barbarians\\kmbpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3B455467-50EE-0940-2918-774134CB4470}|Barbarians.csproj|solutionrelative:kmbpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -19,15 +19,15 @@
       "RelativeMoniker": "D:0:0:{3B455467-50EE-0940-2918-774134CB4470}|Barbarians.csproj|solutionrelative:bmpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B455467-50EE-0940-2918-774134CB4470}|Barbarians.csproj|c:\\users\\user\\onedrive - institut teknologi bandung\\!kuliah_od\\sem4\\vs\\src\\barbarians\\kmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B455467-50EE-0940-2918-774134CB4470}|Barbarians.csproj|C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\Barbarians\\kmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B455467-50EE-0940-2918-774134CB4470}|Barbarians.csproj|solutionrelative:kmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B455467-50EE-0940-2918-774134CB4470}|Barbarians.csproj|c:\\users\\user\\onedrive - institut teknologi bandung\\!kuliah_od\\sem4\\vs\\src\\barbarians\\hamming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B455467-50EE-0940-2918-774134CB4470}|Barbarians.csproj|C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\Barbarians\\hamming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B455467-50EE-0940-2918-774134CB4470}|Barbarians.csproj|solutionrelative:hamming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B455467-50EE-0940-2918-774134CB4470}|Barbarians.csproj|c:\\users\\user\\onedrive - institut teknologi bandung\\!kuliah_od\\sem4\\vs\\src\\barbarians\\kmbpage.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "AbsoluteMoniker": "D:0:0:{3B455467-50EE-0940-2918-774134CB4470}|Barbarians.csproj|C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\Barbarians\\kmbpage.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{3B455467-50EE-0940-2918-774134CB4470}|Barbarians.csproj|solutionrelative:kmbpage.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
@@ -252,7 +252,7 @@
               "RelativeDocumentMoniker": "KMBPage.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\Barbarians\\KMBPage.cs",
               "RelativeToolTip": "KMBPage.cs",
-              "ViewState": "AQIAAHoAAAAAAAAAAAAAAJIAAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T12:42:58.604Z",
               "EditorCaption": ""
@@ -267,8 +267,7 @@
               "RelativeToolTip": "KMP.cs",
               "ViewState": "AQIAAHQAAAAAAAAAAAAAwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T12:34:18.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T12:34:18.277Z"
             },
             {
               "$type": "Document",
@@ -292,8 +291,7 @@
               "RelativeToolTip": "Hamming.cs",
               "ViewState": "AQIAAC0AAAAAAAAAAAAowEIAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T11:27:42.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T11:27:42.618Z"
             },
             {
               "$type": "Document",
@@ -303,7 +301,7 @@
               "RelativeDocumentMoniker": "BMPage.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\Barbarians\\BMPage.cs",
               "RelativeToolTip": "BMPage.cs",
-              "ViewState": "AQIAAOIAAAAAAAAAAADwv+QAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T11:08:15.898Z",
               "EditorCaption": ""
@@ -318,8 +316,7 @@
               "RelativeToolTip": "MainPage.Designer.cs",
               "ViewState": "AQIAALQAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T11:05:26.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T11:05:26.162Z"
             },
             {
               "$type": "Document",
@@ -330,8 +327,7 @@
               "ToolTip": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\Barbarians\\MainPage.resx",
               "RelativeToolTip": "MainPage.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-06-09T11:05:29.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T11:05:29.871Z"
             },
             {
               "$type": "Document",
@@ -343,8 +339,7 @@
               "RelativeToolTip": "..\\TestingMain\\Program.cs",
               "ViewState": "AQIAAIEAAAAAAAAAAAAUwJQAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:07:51.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T07:07:51.448Z"
             },
             {
               "$type": "Document",
@@ -355,8 +350,7 @@
               "ToolTip": "C:\\Users\\User\\OneDrive - Institut Teknologi Bandung\\!KULIAH_OD\\sem4\\Vs\\src\\Barbarians\\BMPage.cs [Design]",
               "RelativeToolTip": "BMPage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T11:05:16.406Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-09T11:05:16.406Z"
             },
             {
               "$type": "Document",
@@ -368,8 +362,7 @@
               "RelativeToolTip": "..\\LogicLibrary\\Parser\\FingerString.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAqwBwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:59:32.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T07:59:32.606Z"
             },
             {
               "$type": "Document",
@@ -381,8 +374,7 @@
               "RelativeToolTip": "..\\LogicLibrary\\Hamming\\Hamming.cs",
               "ViewState": "AQIAADEAAAAAAAAAAAAgwEAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T08:10:06.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-31T08:10:06.456Z"
             },
             {
               "$type": "Document",
@@ -429,8 +421,7 @@
               "RelativeToolTip": "..\\LogicLibrary\\Parser\\BitmapParserBuilder.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T07:05:17.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T07:05:17.545Z"
             },
             {
               "$type": "Document",
