@@ -9,6 +9,8 @@ using Barbarians.Parser;
 using System.Linq;
 using System.IO;
 using MySqlX.XDevAPI.Common;
+using static System.Windows.Forms.AxHost;
+using System.Diagnostics;
 
 namespace Barbarians
 {
@@ -66,13 +68,14 @@ namespace Barbarians
                 Title = "Select an Image",
                 Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp;*.gif"
             };
-           
+            
             // Show the dialog and get result
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 // Load the selected image into the PictureBox
                 PictureBox1.Image = new System.Drawing.Bitmap(openFileDialog.FileName);
                 this.imgPath = openFileDialog.FileName;
+                MessageBox.Show("imgPath: " + openFileDialog.FileName);
             }
         }
 
@@ -97,14 +100,13 @@ namespace Barbarians
                 Console.WriteLine(rootDirectory);
                 string inputDirectoryPath = Path.Combine(rootDirectory, "Input");
 
-                string rootProjectDirectory = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.Parent.Parent.FullName;
+                string rootProjectDirectory = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName;
                 string testDirectory = Path.Combine(rootProjectDirectory, "test");
                 string sampleDirectory = Path.Combine(testDirectory, "Sample");
                 /*var bitmapParser = new BitmapParserBuilder(sampleDirectory); //Kumpulan data Sample .BMP dari socofing*/
 
                 //bitmapParser.PrintBinaryAll();
                 //bitmapParser.PrintAllMap();
-                MessageBox.Show("imgPath: " + this.imgPath);
                 var sample = new BitmapParserBuilder(imgPath, 32, 1); //fix 32 * 1 biar gampang matchingny
                 sample.ParseMapAscii();
                 //sample.PrintBinaryAll();
@@ -114,8 +116,12 @@ namespace Barbarians
                 FingerString banding = sample.AsciiMap[1]; // sementara bandingin dari map juga, masalah input bmp nanti aja di UI
                 banding.displayData();
                 BM bm = new BM(MainPage.bitmapParser.AsciiMap, banding);
-                bm.searchBM();
+                Stopwatch stopwatch = new Stopwatch();
 
+            
+                stopwatch.Start();
+                bm.searchBM();
+                stopwatch.Stop();
 
                 string namadapat = "";
                 using (MySqlConnection connection = new MySqlConnection(connectionString))
@@ -126,11 +132,13 @@ namespace Barbarians
                         string sql = "SELECT * FROM sidik_jari WHERE berkas_citra = @berkascitra";
                         using (MySqlCommand command = new MySqlCommand(sql, connection))
                         {
+
                             if (bm.IsFound)
                             {
                                 command.Parameters.AddWithValue("@berkascitra", bm.Resultmatch[0].FileName + ".BMP");
-                                PictureBox2.Image = new System.Drawing.Bitmap(bm.Resultmatch[0].FileName+".BMP");
-
+                                PictureBox2.Image = new System.Drawing.Bitmap(Path.Combine(sampleDirectory,(bm.Resultmatch[0].FileName+".BMP")));
+                                Label2.Text = "Kemiripan: 100%";
+                                label3.Text = $"Durasi: {stopwatch.ElapsedMilliseconds}ms";
                             }
                             else // hamming
                             {
@@ -140,10 +148,14 @@ namespace Barbarians
                                 ham.searchHamming();
                                 ham.writeResult();
                                 command.Parameters.AddWithValue("@berkascitra", ham.getBestResult().FileName + ".BMP");
-                                PictureBox2.Image = new System.Drawing.Bitmap(ham.getBestResult().FileName+".BMP");
+                                PictureBox2.Image = new System.Drawing.Bitmap(Path.Combine(sampleDirectory, (ham.getBestResult().FileName + ".BMP")));
+                                Label2.Text = $"Kemiripan: {ham.getBestPercent().ToString("F2")}%";
+                                label3.Text = $"Durasi: {stopwatch.ElapsedMilliseconds}ms";
+
                             }
                             using (MySqlDataReader reader = command.ExecuteReader())
                             {
+
                                 if (reader.Read())
                                 {
                                     namadapat = reader.GetString("nama");
@@ -181,8 +193,17 @@ namespace Barbarians
                                         string statusPerkawinan = reader.GetString("status_perkawinan");
                                         string pekerjaan = reader.GetString("pekerjaan");
                                         string kewarganegaraan = reader.GetString("kewarganegaraan");
-
-                                        Console.WriteLine($"NIK: {NIK}, Nama: {nama}, Tempat Lahir: {tempatLahir}, Tanggal Lahir: {tanggalLahir.ToShortDateString()}, Jenis Kelamin: {jenisKelamin}, Golongan Darah: {golonganDarah}, Alamat: {alamat}, Agama: {agama}, Status Perkawinan: {statusPerkawinan}, Pekerjaan: {pekerjaan}, Kewarganegaraan: {kewarganegaraan}");
+                                        RichTextBox2.Text = $"HASIL\n" +
+                                            $"NIK: {NIK} \n" +
+                                            $"Tempat Lahir: {tempatLahir}\n" +
+                                            $"Tanggal Lahir: {tanggalLahir.ToShortDateString()} \n" +
+                                            $"Jenis Kelamin: {jenisKelamin}\n" +
+                                            $"Golongan Darah: {golonganDarah}\n" +
+                                            $"Alamat: {alamat}\n" +
+                                            $"Agama: {agama}\n" +
+                                            $"Status Perkawinan: {statusPerkawinan}\n" +
+                                            $"Pekerjaan: {pekerjaan}\n" +
+                                            $"Kewarganegaraan: {kewarganegaraan}\n";
                                     }
                                 }
                             }
@@ -214,9 +235,12 @@ namespace Barbarians
 
         private void Button3_Click(object sender, EventArgs e)
         {
+            RichTextBox2.Text = "HASIL";
             PictureBox1.Image = null;
             PictureBox2.Image = null;
             imgPath = null;
+            label3.Text = "Durasi: 0 ms";
+            Label2.Text = "Kemiripan: 0%";
         }
 
         private void Panel3_Paint(object sender, PaintEventArgs e)
@@ -233,6 +257,10 @@ namespace Barbarians
         {
 
         }
-      
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

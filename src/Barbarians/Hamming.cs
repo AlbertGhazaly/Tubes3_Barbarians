@@ -18,7 +18,10 @@ namespace Barbarians.Hamming
             this.goodResults = new List<Result>();
             this.tuningPersen = tuningpersen;
         }
-
+        public double getBestPercent()
+        {
+            return goodResults.First().Percentage;
+        }
         public void searchHamming()
         {
             foreach (var entry in fingermap)

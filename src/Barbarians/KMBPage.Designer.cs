@@ -45,11 +45,12 @@ namespace Barbarians
             this.PictureBox1 = new System.Windows.Forms.PictureBox();
             this.Panel4 = new System.Windows.Forms.Panel();
             this.Button4 = new System.Windows.Forms.Button();
-            this.RichTextBox2 = new System.Windows.Forms.RichTextBox();
             this.Button3 = new System.Windows.Forms.Button();
             this.Panel3 = new System.Windows.Forms.Panel();
-            this.Label2 = new System.Windows.Forms.Label();
             this.PictureBox2 = new System.Windows.Forms.PictureBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.Label2 = new System.Windows.Forms.Label();
             this.Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox3)).BeginInit();
             this.Panel2.SuspendLayout();
@@ -120,6 +121,7 @@ namespace Barbarians
             this.Button2.TabIndex = 2;
             this.Button2.Text = "CLEAR";
             this.Button2.UseVisualStyleBackColor = false;
+            this.Button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // Button1
             // 
@@ -136,6 +138,7 @@ namespace Barbarians
             this.Button1.TabIndex = 1;
             this.Button1.Text = "INSERT";
             this.Button1.UseVisualStyleBackColor = false;
+            this.Button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // PictureBox1
             // 
@@ -147,8 +150,8 @@ namespace Barbarians
             // 
             // Panel4
             // 
+            this.Panel4.Controls.Add(this.richTextBox1);
             this.Panel4.Controls.Add(this.Button4);
-            this.Panel4.Controls.Add(this.RichTextBox2);
             this.Panel4.Controls.Add(this.Button3);
             this.Panel4.Location = new System.Drawing.Point(1361, 299);
             this.Panel4.Name = "Panel4";
@@ -171,19 +174,7 @@ namespace Barbarians
             this.Button4.TabStop = false;
             this.Button4.Text = "SEARCH";
             this.Button4.UseVisualStyleBackColor = false;
-            // 
-            // RichTextBox2
-            // 
-            this.RichTextBox2.BackColor = System.Drawing.SystemColors.Control;
-            this.RichTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.RichTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RichTextBox2.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.RichTextBox2.Location = new System.Drawing.Point(37, 24);
-            this.RichTextBox2.Name = "RichTextBox2";
-            this.RichTextBox2.Size = new System.Drawing.Size(370, 336);
-            this.RichTextBox2.TabIndex = 2;
-            this.RichTextBox2.Text = "HASIL\nNama: \nUmur:";
-            this.RichTextBox2.TextChanged += new System.EventHandler(this.RichTextBox2_TextChanged);
+            this.Button4.Click += new System.EventHandler(this.Button4_Click);
             // 
             // Button3
             // 
@@ -205,27 +196,13 @@ namespace Barbarians
             // Panel3
             // 
             this.Panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(150)))), ((int)(((byte)(119)))));
+            this.Panel3.Controls.Add(this.label3);
             this.Panel3.Controls.Add(this.Label2);
             this.Panel3.Controls.Add(this.PictureBox2);
             this.Panel3.Location = new System.Drawing.Point(725, 299);
             this.Panel3.Name = "Panel3";
             this.Panel3.Size = new System.Drawing.Size(512, 519);
             this.Panel3.TabIndex = 3;
-            // 
-            // Label2
-            // 
-            this.Label2.AutoSize = true;
-            this.Label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(106)))));
-            this.Label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Label2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Label2.Location = new System.Drawing.Point(188, 408);
-            this.Label2.Margin = new System.Windows.Forms.Padding(3);
-            this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(152, 30);
-            this.Label2.TabIndex = 2;
-            this.Label2.Text = "Kemiripan: 0%";
-            this.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // PictureBox2
             // 
@@ -235,6 +212,51 @@ namespace Barbarians
             this.PictureBox2.TabIndex = 0;
             this.PictureBox2.TabStop = false;
             this.PictureBox2.Click += new System.EventHandler(this.PictureBox2_Click);
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.richTextBox1.Location = new System.Drawing.Point(37, 25);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(370, 336);
+            this.richTextBox1.TabIndex = 3;
+            this.richTextBox1.Text = "HASIL\n";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(64)))), ((int)(((byte)(99)))));
+            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label3.Location = new System.Drawing.Point(175, 388);
+            this.label3.Margin = new System.Windows.Forms.Padding(3);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(130, 30);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Durasi: 0 ms";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // Label2
+            // 
+            this.Label2.AutoSize = true;
+            this.Label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(67)))), ((int)(((byte)(106)))));
+            this.Label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Label2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.Label2.Location = new System.Drawing.Point(165, 424);
+            this.Label2.Margin = new System.Windows.Forms.Padding(3);
+            this.Label2.Name = "Label2";
+            this.Label2.Size = new System.Drawing.Size(152, 30);
+            this.Label2.TabIndex = 4;
+            this.Label2.Text = "Kemiripan: 0%";
+            this.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Label2.Click += new System.EventHandler(this.Label2_Click);
             // 
             // KMBPage
             // 
@@ -271,9 +293,10 @@ namespace Barbarians
         internal Button Button3;
         internal Button Button4;
         internal PictureBox PictureBox2;
-        internal RichTextBox RichTextBox2;
         internal PictureBox PictureBox3;
         internal Label Label1;
+        internal RichTextBox richTextBox1;
+        internal Label label3;
         internal Label Label2;
     }
 }
